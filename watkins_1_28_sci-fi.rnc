@@ -1,0 +1,16 @@
+start = shortStory
+shortStory = element shortStory {metadata, body}
+metadata = element metadata {title, author}
+title = element title {text}
+author = element author {text}
+body = element body {p+}
+p = element p {mixed {(quotes| emph| axes| scifi)*}}
+quotes = element quotes {speaker*, mixed {(emph| axes| scifi)*}}
+speaker = attribute speaker {text}
+emph = element emph {font-style+, text}
+font-style = attribute font-style {text}
+axes = element axes {trait+, character+, mixed{(quotes| emph| scifi| axes)*}}
+trait = attribute trait {text}
+character = attribute character {text}
+scifi = element scifi {trope+, mixed{(quotes| emph| axes)*}}
+trope = attribute trope {text}
