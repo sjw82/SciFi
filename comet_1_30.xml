@@ -38,22 +38,23 @@
             beneath; down into the blackness and silence beneath that lowest cavern. Here with his
             dark lantern he groped in the bowels of the earth, under the world.</p>
         <p>He drew a long breath as he threw back the last great iron door and stepped into the
-            fetid slime within. <axes trait="all" character="Jim">Here at last was peace</axes>, and
-            he groped moodily forward. A great rat leaped past him and cobwebs crept across his
-            face. He felt carefully around the room, shelf by shelf, on the muddied floor, and in
-            crevice and corner. Nothing. Then he went back to the far end, where somehow the wall
-            felt different. He sounded and pushed and pried. Nothing. He started away. Then
-            something brought him back. He was sounding and working again when suddenly the whole
-            black wall swung as on mighty hinges, and blackness yawned beyond. He peered in; it was
-            evidently a secret vault—some hiding place of the old bank unknown in newer times. He
-            entered hesitatingly. It was a long, narrow room with shelves, and at the far end, an
-            old iron chest. On a high shelf lay the two missing volumes of records, and others. He
-            put them carefully aside and stepped to the chest. It was old, strong, and rusty. He
-            looked at the vast and old-fashioned lock and flashed his light on the hinges. They were
-            deeply incrusted with rust. <axes trait="class race" character="Jim">Looking about, he
-                found a bit of iron and began to pry. The rust had eaten a hundred years, and it had
-                gone deep. Slowly, wearily, the old lid lifted, and with a last, low groan lay bare
-                its treasure—and he saw the dull sheen of gold!</axes></p>
+            fetid slime within. <!-- it made me add axes but I need to reread to be sure that its what I want -->
+            <axes trait="race class" character="Jim">Here at last was peace</axes>, and he groped
+            moodily forward. A great rat leaped past him and cobwebs crept across his face. He felt
+            carefully around the room, shelf by shelf, on the muddied floor, and in crevice and
+            corner. Nothing. Then he went back to the far end, where somehow the wall felt
+            different. He sounded and pushed and pried. Nothing. He started away. Then something
+            brought him back. He was sounding and working again when suddenly the whole black wall
+            swung as on mighty hinges, and blackness yawned beyond. He peered in; it was evidently a
+            secret vault—some hiding place of the old bank unknown in newer times. He entered
+            hesitatingly. It was a long, narrow room with shelves, and at the far end, an old iron
+            chest. On a high shelf lay the two missing volumes of records, and others. He put them
+            carefully aside and stepped to the chest. It was old, strong, and rusty. He looked at
+            the vast and old-fashioned lock and flashed his light on the hinges. They were deeply
+            incrusted with rust. <axes trait="class race" character="Jim">Looking about, he found a
+                bit of iron and began to pry. The rust had eaten a hundred years, and it had gone
+                deep. Slowly, wearily, the old lid lifted, and with a last, low groan lay bare its
+                treasure—and he saw the dull sheen of gold!</axes></p>
         <p><quotes speaker="onomatoonompoeia">Boom!</quotes></p>
         <p>A low, grinding, reverberating crash struck upon his ear. He started up and looked about.
             All was black and still. He groped for his light and swung it about him. Then he knew!
@@ -280,18 +281,16 @@
         <p>What was that whirring? Surely—no—was it the click of a receiver?</p>
         <p>She bent close, she moved the pegs in the holes, and called and called, until her voice
             rose almost to a shriek, and her heart hammered. It was as if she had heard the last
-            flicker of creation, and the evil was silence.
-            <!-- should I include religion as an axis? or is this just imagery that, while pretty, I should ignore-->
-            <!-- I should include questions about religion imagery, not markup ya doof -->
-            Her voice dropped to a sob. <axes trait="gender" character="Julia">She sat stupidly
-                staring into the black and sarcastic mouthpiece</axes>, and the thought came again.
-            Hope lay dead within her. Yes, the cable and the rockets remained; but the world—she
-            could not frame the thought or say the word. It was too mighty—too terrible! <axes
-                trait="gender" character="Julia">She turned toward the door with a new fear in her
-                heart. For the first time she seemed to realize that she was alone in the world with
-                a stranger, <axes trait="race" character="Jim">with something more than a
-                    stranger,—with a man alien in blood and culture—unknown, perhaps
-                    unknowable</axes>.
+            flicker of creation, and the evil was silence. <!-- should I include religion as an axis? or is this just imagery that, while pretty, I should ignore-->
+            <!-- I should include questions about religion imagery, not markup ya doof --> Her voice
+            dropped to a sob. <axes trait="gender" character="Julia">She sat stupidly staring into
+                the black and sarcastic mouthpiece</axes>, and the thought came again. Hope lay dead
+            within her. Yes, the cable and the rockets remained; but the world—she could not frame
+            the thought or say the word. It was too mighty—too terrible! <axes trait="gender"
+                character="Julia">She turned toward the door with a new fear in her heart. For the
+                first time she seemed to realize that she was alone in the world with a stranger,
+                    <axes trait="race" character="Jim">with something more than a stranger,—with a
+                    man alien in blood and culture—unknown, perhaps unknowable</axes>.
                 <!-- should it be Jim or Julia? it reflects Julia's beliefs but is about Jim --> It
                 was awful! She must escape—she must fly; he must not see her again. Who knew what
                 awful thoughts—</axes></p>
