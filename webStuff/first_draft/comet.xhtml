@@ -18,48 +18,66 @@
                 <li>Discussion Plans</li>
                 <li>About</li>
             </ul></nav>
-        
-       <div> <table>
-            <tr>
-                <th>Search by Character</th>
-                <th>Search by Characteristic</th>
-            </tr> 
-           <tr>
-                <td>
-                    <div class="custom-select">
-                        <select name="characters">
-                            <optgroup label="characters">
-                                <option value="character">Character</option>
-                                <option value="Jim">Jim</option>
-                                <option value="President">Bank President</option>
-                                <option value="Julia">Julia</option>
-                                <option value="J.B.H">J.B.H., Julia's Father</option>
-                                <option value="Fred">Fred, Julia's Fiance</option>
-                                <option value="Wife">Jim's Wife</option>
-                                <option value="Baby">Jim's Baby</option>
-                            </optgroup>
-                        </select>
-                    </div></td>
-          
-           
-                
-                <td>
-                    <div class="custom-select">
-                        <select name="characters">
-                            <optgroup label="characters">
-                                <option value="characteristic">Characteristic</option>
-                                <option value="race">race</option>
-                                <option value="class">class</option>
-                                <option value="gender">gender</option>
-                                <option value="orientation">orientation</option>
-                                <option value="ability">ability</option>
-                            </optgroup>
-                        </select>
-                    </div></td>
-           </tr>
-        </table></div>
- 
-       <p>He stood a moment on the steps of the bank, watching the human river that swirled down
+        <div id="dropDown">
+            <table>
+                <tr>
+                    <th>Search by Character</th>
+                    <th>Search by Characteristic</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="custom-select">
+                            <select name="characters">
+                                <optgroup label="characters">
+                                    <option value="character">Character</option>
+                                    <option value="Jim">Jim</option>
+                                    <option value="President">Bank President</option>
+                                    <option value="Julia">Julia</option>
+                                    <option value="J.B.H">J.B.H., Julia's Father</option>
+                                    <option value="Fred">Fred, Julia's Fiance</option>
+                                    <option value="Wife">Jim's Wife</option>
+                                    <option value="Baby">Jim's Baby</option>
+                                </optgroup>
+                            </select>
+                        </div></td>
+
+
+
+                    <td>
+                        <div class="custom-select">
+                            <select name="characters">
+                                <optgroup label="characters">
+                                    <option value="characteristic">Characteristic</option>
+                                    <option value="race">race</option>
+                                    <option value="class">class</option>
+                                    <option value="gender">gender</option>
+                                    <option value="orientation">orientation</option>
+                                    <option value="ability">ability</option>
+                                </optgroup>
+                            </select>
+                        </div></td>
+                </tr>
+            </table>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+        <!-- Use any element to open the sidenav -->
+        <span onclick="openNav()">open</span>
+        <script>
+            function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}</script>
+        <p>He stood a moment on the steps of the bank, watching the human river that swirled down
             Broadway. Few noticed him. Few ever noticed him save in a way that stung. He was outside
             the world—"nothing!" as he said bitterly. Bits of the words of the walkers came to
             him.</p>

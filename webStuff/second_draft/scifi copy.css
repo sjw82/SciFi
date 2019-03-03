@@ -10,6 +10,7 @@ nav {
     border-top-color: white;
     border-color: Moccasin;
     margin: 40px;
+    height: 15%
 }
 nav ul {
     margin: 0;
@@ -22,6 +23,7 @@ nav ul li {
 }
 li { 
     padding-left:35px;
+    font-size: 20px
 }
 
 a:link {
@@ -49,18 +51,6 @@ th {
     padding: 10px;
 }
 
-optgroup {
-    display: inline-block;
-    border-style: solid;
-    border-width: 2px;
-    border-color: Moccasin;
-
-}
-
-div{
-    text-align: center;
-}
-
 body {
     background-color: floralwhite;
 }
@@ -76,5 +66,23 @@ h3 {
 }
 p {
     font-size: 15px;
-    text-indent: 50px
+    text-indent: 50px;
+    padding-left: 1%;
+}
+#wrapper {
+    display:flex;
+    flex-direction: row;
+}
+#sidebar {
+    width: 40%;
+    padding-right: 8%;
+    padding-left: 2%;
+    background-color: Aquamarine ;
+    text-align: left;
+}
+h4{
+    font-size: 16px;
+}
+section p {
+    text-align: left;
 }

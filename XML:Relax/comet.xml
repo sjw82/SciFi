@@ -1,120 +1,120 @@
-
 <!-- SAM still gotta add in CBT/DBT -->
-<?xml-model href="../watkins_1_28_sci-fi.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- currently have every time he is referred to as a messsenger as an allusion but that doesn't feel right -->
+<!-- Project Ideas: map the journey physical and psychological -->
+<?xml-model href="watkins_1_28_sci-fi.rnc" type="application/relax-ng-compact-syntax"?>
 <shortStory>
     <metadata>
         <title>THE COMET</title>
         <author>W.E.B. DuBois</author>
     </metadata>
     <body>
-        <p>He stood a moment on the steps of the bank, watching the human river that swirled down
-            Broadway. Few noticed him. Few ever noticed him save in a way that stung. <axes
+        <p><litdev dev="motif" motif="water">He stood a moment on the steps of <setting place="bank">the bank</setting><!-- bank is lower case -->, watching the <litdev dev="meta">human river</litdev></litdev><!-- he stands on the bank of the human river --> that swirled down
+            <setting place="broadway">Broadway</setting>. <dbt>Few noticed him. Few ever noticed him save in a way that stung.<axes
                 trait="class" character="Jim">He was outside the world—<quotes>nothing!</quotes> as
-                he said bitterly.</axes> Bits of the words of the walkers came to him.</p>
+                he said bitterly.</axes></dbt> Bits of the words of the walkers came to him.</p>
         <p><quotes>The comet?</quotes></p>
         <p><quotes>The comet——</quotes></p>
-        <p>Everybody was talking of it. Even the president, as he entered, <axes trait="class"
+        <p>Everybody was talking of it. Even the president, as he entered, <axes trait="class race"
                 character="Jim">smiled patronizingly at him</axes>, and asked:</p>
         <p><quotes>Well, Jim, are you scared?</quotes></p>
-        <p><quotes>No,</quotes>said the messenger shortly.</p>
+        <p><quotes>No,</quotes>said <litdev dev="allusion">the <litdev dev="allusion">messenger</litdev></litdev> shortly.</p>
         <p><quotes>I thought we'd journeyed through the comet's tail once,</quotes>broke in the
             junior clerk affably.</p>
         <p><quotes>Oh, that was Halley's,</quotes>said the president; <quotes>this is a new comet,
-                quite a stranger, they say—wonderful, wonderful! I saw it last night. Oh, by the
-                way, Jim,</quotes> turning again to the messenger, <quotes>I want you to go down
+                quite a stranger, they say—wonderful, wonderful! I saw it last night. <!-- how did he see it if it hasn't passed yet? Or is he referring to seeing about it on the news? --> Oh, by the
+                way, Jim,</quotes> turning again to the <litdev dev="allusion">messenger</litdev>, <quotes>I want you to go down
                 into the lower vaults today.</quotes></p>
-        <p>The messenger followed the president silently. Of course, they wanted <emph
+        <p>The <litdev dev="allusion">messenger</litdev> followed the president silently. Of course, they wanted <emph
                 font-style="italics">him</emph> to go down to the lower vaults. <axes
                 trait="class race" character="Jim">It was too dangerous for more valuable
-            men</axes>. He smiled grimly and listened.</p>
-        <p><quotes>Everything of value has been moved out since the water began to seep in," said
-                the president; "but we miss two volumes of old records. Suppose you nose around down
+            men</axes>. He smiled grimly and listened.</p> <!-- these are opportunities for CBT that should perhaps be forgone to keep from invalidating the underlying truth of racial injustice; they're not thought fallacies, they're accurate -->
+        <p><quotes><litdev dev="motif" motif="water"> Eything of value has been moved out since the water began to seep in,</litdev></quotes> said
+                the president; <quotes>but we miss two volumes of old records. Suppose you nose around down
                 there,—it isn't very pleasant, I suppose.</quotes></p>
-        <p><quotes>Not very,</quotes> said the messenger, as he walked out.</p>
+        <p><quotes>Not very,</quotes> said the <litdev dev="allusion">messenger</litdev>, as he walked out.</p>
         <p><quotes>Well, Jim, <scifi trope="apocalypse">the tail of the new comet hits us at noon
                     this time</scifi>,</quotes> said the vault clerk, as he passed over the keys;
-            but the messenger passed silently down the stairs. Down he went beneath Broadway, where
-            the dim light filtered through the feet of hurrying men; down to the dark basement
-            beneath; down into the blackness and silence beneath that lowest cavern. Here with his
-            dark lantern he groped in the bowels of the earth, under the world.</p>
+            but the <litdev dev="allusion">messenger</litdev> passed silently down the stairs. Down he went <setting place="broadway" loc="beneath">beneath Broadway</setting>, where
+            <litdev dev="image">the dim light filtered through the feet of hurrying men; down to the dark basement
+            beneath; down into the blackness and silence beneath that lowest <litdev dev="meta">cavern</litdev>. <litdev dev="meta">Here with his
+            dark lantern he groped in the bowels of the earth, under the world.</litdev></litdev></p>
         <p>He drew a long breath as he threw back the last great iron door and stepped into the
-            fetid slime within. <!-- it made me add axes but I need to reread to be sure that its what I want -->
-            <axes trait="race class" character="Jim">Here at last was peace</axes>, and he groped
-            moodily forward. A great rat leaped past him and cobwebs crept across his face. He felt
+            <vocab term="smelling extremely unpleasant">fetid</vocab> slime within. <!-- it made me add axes but I need to reread to be sure that its what I want -->
+            <litdev dev="image"><axes trait="race class" character="Jim">Here at last was peace</axes>, and he groped
+            moodily forward.</litdev> <litdev dev="image" imagery="horror">A great rat leaped past him and <litdev dev="meta">cobwebs crept across his face</litdev>.</litdev> He felt
             carefully around the room, shelf by shelf, on the muddied floor, and in crevice and
             corner. Nothing. Then he went back to the far end, where somehow the wall felt
             different. He sounded and pushed and pried. Nothing. He started away. Then something
             brought him back. He was sounding and working again when suddenly the whole black wall
-            swung as on mighty hinges, and blackness yawned beyond. He peered in; it was evidently a
-            secret vault—some hiding place of the old bank unknown in newer times. He entered
+            swung as on mighty hinges, and <litdev dev="meta">blackness yawned beyond</litdev>. He peered in; <q quest="Why is there a secret vault and what does the passage of time signify? Why is it meaningful that he found a vault?">it was evidently a
+            secret vault—some hiding place of the old bank unknown in newer times.</q> He entered
             hesitatingly. It was a long, narrow room with shelves, and at the far end, an old iron
-            chest. On a high shelf lay the two missing volumes of records, and others. He put them
+            chest. <q quest="What is the metaphor behind missing but forgotten records? Hint I'm guessing slavery and records of people">On a high shelf lay the two missing volumes of records, and others.</q> He put them
             carefully aside and stepped to the chest. It was old, strong, and rusty. He looked at
             the vast and old-fashioned lock and flashed his light on the hinges. They were deeply
             incrusted with rust. <axes trait="class race" character="Jim">Looking about, he found a
                 bit of iron and began to pry. The rust had eaten a hundred years, and it had gone
                 deep. Slowly, wearily, the old lid lifted, and with a last, low groan lay bare its
-                treasure—and he saw the dull sheen of gold!</axes></p>
-        <p><quotes speaker="onomatoonompoeia">Boom!</quotes></p>
-        <p>A low, grinding, reverberating crash struck upon his ear. He started up and looked about.
+                treasure—and he saw the dull sheen of gold!</axes><!-- I don't recall why I put this on these axes --></p>
+        <p><litdev dev="on"><quotes speaker="onomatoonompoeia">Boom!</quotes></litdev></p>
+        <p><litdev dev="image" imagery="audio">A low, grinding, reverberating crash</litdev> struck upon his ear. He started up and looked about.
             All was black and still. He groped for his light and swung it about him. Then he knew!
             The great stone door had swung to. <axes trait="class" character="Jim">He forgot the
-                gold and looked death squarely in the face.</axes> Then with a sigh he went
-            methodically to work. The cold sweat stood on his forehead; but he searched, pounded,
+                gold and looked death squarely in the face.</axes> <axes trait="class" character="Jim">Then with a sigh he went
+            methodically to work.</axes> The cold sweat stood on his forehead; but he searched, pounded,
             pushed, and worked until after what seemed endless hours his hand struck a cold bit of
             metal and the great door swung again harshly on its hinges, and then, striking against
             something soft and heavy, stopped. He had just room to squeeze through. There lay the
-            body of the vault clerk, cold and stiff. He stared at it, and then felt sick and
-            nauseated. The air seemed unaccountably foul, with a strong, peculiar odor. He stepped
-            forward, clutched at the air, and fell fainting across the corpse.</p>
+            body of the vault clerk, cold and stiff. <!-- what is the vault clerk doing down here? Did he run down the stairs and through the chambers to the bowels of the Earth as he was poisoned? --> He stared at it, and then felt sick and
+            nauseated. The air seemed unaccountably foul, with a strong, peculiar odor. <litdev dev="image" imagery="horror">He stepped
+            forward, clutched at the air, and fell fainting across the corpse.</litdev></p>
         <p>He awoke with a sense of horror, leaped from the body, and groped up the stairs, calling
             to the guard. The watchman sat as if asleep, with the gate swinging free. With one
-            glance at him the messenger hurried up to the sub-vault. In vain he called to the
+            glance at him the <litdev dev="allusion">messenger</litdev> hurried up to the sub-vault. In vain he called to the
             guards. His voice echoed and re-echoed weirdly. Up into the great basement he rushed.
             Here another guard lay prostrate on his face, cold and still. A fear arose in the
-            messenger's heart. He dashed up to the cellar floor, up into the bank. The stillness of
-            death lay everywhere and everywhere bowed, bent, and stretched the silent forms of men.
-            The messenger paused and glanced about. He was not a man easily moved; but the sight was
+            <litdev dev="allusion">messenger</litdev>'s heart. He dashed up to the cellar floor, up into the bank. <litdev dev="image" imagery="horror">The stillness of
+            death lay everywhere and everywhere bowed, bent, and stretched the silent forms of men.</litdev>
+            The <litdev dev="allusion">messenger</litdev> paused and glanced about. He was not a man easily moved; but the sight was
             appalling! <quotes>Robbery and murder,</quotes> he whispered slowly to himself as he saw
             the twisted, oozing mouth of the president where he lay half-buried on his desk. Then a
             new thought seized him: <axes trait="class race" character="Jim">If they found him here
                 alone—with all this money and all these dead men—what would his life be
                 worth?</axes> He glanced about, tiptoed cautiously to a side door, and again looked
             behind. Quietly he turned the latch and stepped out into Wall Street.</p>
-        <!-- above was from homework assignment -->
-        <p>How silent the street was! Not a soul was stirring, and yet it was high-noon—Wall Street?
-            Broadway? He glanced almost wildly up and down, then across the street, and as he
+        <p>How silent the street was! Not a soul was stirring, and yet it was <setting time="noon">high-noon</setting>—<setting place="wall street">Wall Street</setting>?
+            <setting place="broadway">Broadway</setting>? He glanced almost wildly up and down, then across the street, and as he
             looked, a sickening horror froze in his limbs. With a choking cry of utter fright he
             lunged, leaned giddily against the cold building, and stared helplessly at the
             sight.</p>
-        <p>In the great stone doorway a hundred men and women and children lay crushed and twisted
-            and jammed, forced into that great, gaping doorway like refuse in a can—as if in one
-            wild, frantic rush to safety, they had rushed and ground themselves to death. Slowly the
-            messenger crept along the walls, wetting his parched mouth and trying to comprehend,
+        <p><litdev dev="image" imagery="horror">In the great stone doorway <litdev dev="sim">a hundred men and women and children lay crushed and twisted
+            and jammed, forced into that great, gaping doorway like refuse in a can</litdev>—as if in one
+            wild, frantic rush to safety, they had rushed and ground themselves to death.</litdev> Slowly the
+            <litdev dev="allusion">messenger</litdev> crept along the walls, wetting his parched mouth and trying to comprehend,
             stilling the tremor in his limbs and the rising terror in his heart. He met a business
             man, silk—hatted and frock—coated, who had crept, too, along that smooth wall and stood
-            now stone dead with wonder written on his lips. The messenger turned his eyes hastily
+            now stone dead with wonder written on his lips. The <litdev dev="allusion">messenger</litdev> turned his eyes hastily
             away and sought the curb. A woman leaned wearily against the signpost, her head bowed
             motionless on her lace and silken bosom. Before her stood a street car, silent, and
-            within—but the messenger but glanced and hurried on. A grimy newsboy sat in the gutter
-            with the <quotes>last edition</quotes> in his uplifted hand: <quotes speaker="text"
+            within—but the <litdev dev="allusion">messenger</litdev> but glanced and hurried on. <!-- what is within? --> <child>A grimy newsboy sat in the gutter
+            with the <quotes>last edition</quotes> in his uplifted hand</child>: <quotes speaker="text"
                 >Danger!</quotes> screamed its black headlines. <quotes speaker="text">Warnings
-                wired around the world. <scifi trope="apocalypse">The Comet's tail sweeps past us at
-                    noon. Deadly gases expected. Close doors and windows. Seek the
-                cellar.</scifi></quotes> The messenger read and staggered on. Far out from a window
-            above, a girl lay with gasping face and sleevelets on her arms. On a store step sat a
-            little, sweet—faced girl looking upward toward the skies, and in the carriage by her
-            lay—but the messenger looked no longer. The cords gave way—the terror burst in his
+                wired around the world. <scifi trope="apocalypse"><setting time="noon">The Comet's tail sweeps past us at
+                    noon.</setting> Deadly gases expected. Close doors and windows. Seek the
+                cellar.</scifi></quotes> The <litdev dev="allusion">messenger</litdev> read and staggered on. <child>Far out from a window
+            above, a girl lay with gasping face and sleevelets on her arms</child>. <child>On a store step sat a
+            little, sweet—faced girl looking upward toward the skies</child>, and <child>in the carriage by her
+            lay—but the <litdev dev="allusion">messenger</litdev> looked no longer</child>. The cords <!-- what does the cords refer to? --> gave way—the terror burst in his
             veins, and with one great, gasping cry he sprang desperately forward and ran,—ran as
             only the frightened run, shrieking and fighting the air until with one last wail of pain
-            he sank on the grass of Madison Square and lay prone and still.</p>
+            he sank on the grass of <setting place="madisonSquare">Madison Square</setting> and lay prone and still.</p>
         <p>When he rose, he gave no glance at the still and silent forms on the benches, but, going
             to a fountain, bathed his face; then hiding himself in a corner away from the drama of
             death, he quietly gripped himself and thought the thing through: <scifi
                 trope="apocalypse">The comet had swept the earth and this was the end. Was everybody
                 dead? He must search and see.</scifi></p>
         <p>He knew that he must steady himself and keep calm, or he would go insane. First he must
-            go to a restaurant. He walked up Fifth Avenue to a famous hostelry and entered its
+            go to a restaurant. He walked up <setting place="fifthAve">Fifth Avenue</setting> to <setting place="restaurant">a famous hostelry</setting> and entered its
             gorgeous, ghost—haunted halls. He beat back the nausea, and, seizing a tray from dead
             hands, hurried into the street and ate ravenously, hiding to keep out the sights.</p>
         <p><axes trait="race class" character="Jim"><quotes>Yesterday, they would not have served
@@ -259,6 +259,7 @@
                 She heard him moving to and fro, and knew his burdens—the poor, little burdens he
                 bore.
                 <!-- The preceeding sentence should be marked as an axes but I'm unclear which trait it would be on; class/race or gender? -->
+                <!-- racial stereotype; black people experience feelings differently, can't experience the same emotions; little burdens for little mind -->
                 When she entered, he was alone in the room.</axes> The grim switchboard flashed its
             metallic face in cryptic, sphinx—like immobility. She seated herself on a stool and
             donned the bright earpiece. She looked at the mouthpiece. She had never looked at one so
@@ -299,7 +300,7 @@
             shrank back: the hall lay filled with dead women; then she leaped to the door and tore
             at it, with bleeding fingers, until it swung wide. She looked out. He was standing at
             the top of the alley,—silhouetted, tall and black, motionless. Was he looking at her or
-            away? <!-- How to tag this previous sentence or to tag it at all --> She did not
+            away? <!-- How to tag this previous sentence or to tag it at all --><!-- the male gaze? --> She did not
             know—she did not care. She simply leaped and ran—ran until she found herself alone amid
             the dead and the tall ramparts of towering buildings.</p>
         <p><axes trait="gender" character="Julia">She stopped. She was alone. Alone! Alone on the
@@ -343,7 +344,8 @@
             low lair of witchery. The gathered lightnings of the world centered here, binding with
             beams of light the ends of the earth. The doors gaped on the gloom within. He paused on
             the threshold.</p>
-        <!-- the above is a weird little paragraph and I don't know what its referencing -->
+        <!-- the above is a weird little paragraph and I don't know what its referencing --><!-- transatlantic cables!!! poetic, mythological discussion of the possible but by someone who doesn't know the tech -->
+        <!-- cultural reproducition faciltiy; technology replicates in order to obfuscate realtiy (i.e. witchery) this is where they brew the lies and disseminate them for public discussion -->
         <p><quotes speaker="Julia">Do you know the code?</quotes> she asked.</p>
         <p><quotes speaker="Jim">I know the call for help—we used it formerly at the
             bank.</quotes></p>

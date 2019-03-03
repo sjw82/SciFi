@@ -1,0 +1,41 @@
+start = shortStory
+shortStory = element shortStory {metadata, body}
+metadata = element metadata {title, author}
+title = element title {text}
+author = element author {text}
+body = element body {p+ & content}
+content = mixed {(quotes | emph | axes | scifi | litdev | setting | dbt | cbt | theme | vocab | q | child)*}
+p = element p {content}
+quotes = element quotes {speaker*, content}
+speaker = attribute speaker {text}
+emph = element emph {font-style, content}
+font-style = attribute font-style {text}
+axes = element axes {trait, character, content}
+trait = attribute trait {list {("race" | "class" | "gender" | "orientation" | "ability")*}}
+character = attribute character {text}
+scifi = element scifi {trope, content}
+trope = attribute trope {text}
+litdev = element litdev { dev, motif?, imagery?, content?, text }
+dev = attribute dev {text}
+# syn = synonym, meta = metaphore, on = onomatopoeia, im = imagery, motif, allusion
+motif = attribute motif {text}
+imagery = attribute imagery {text}
+# audio, horror, 
+setting = element setting {(time | (place, loc?)), content?, text}
+time = attribute time {text}
+place = attribute place {text}
+loc = attribute loc {text}
+#loc = location such as above, beneath, in
+# would it be better to have setting as it's own thing with time and place as attributes so theoretical students could map out the geography and a timeline or to keep place separate for map purposes and ignore time or else make time its own thing as well?
+dbt = element dbt {content?, text}
+# an ill-defined element as of right now but I am marking for places that I initially see examples of or opportunity for dialectical thought or behavior
+cbt = element cbt {content?, text}
+theme = element theme {content?, topic, text}
+topic = attribute topic {text}
+vocab = element vocab {term, content?, text}
+term = attribute term {text}
+# way to include definitions of difficult words; definitions from google dictionary
+q = element q {quest?, text}
+quest = attribute quest {text}
+# going to tag opportunities for questions
+child = element child {content?, text}
