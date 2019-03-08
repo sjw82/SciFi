@@ -3,38 +3,53 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>Sultana's Dream</title>
-        <link rel="stylesheet" type="text/css" href="scifi%20copy.css" />
+        <link rel="stylesheet" type="text/css" href="combo.css" />
     </head>
     <body>
-        <nav><ul>
-            <li><a href="index.xhtml">Home</a></li>
-            <li>Definition of Science Fiction</li>
-            <li><a href="stories_page.xhtml">Stories</a></li>
-            <li>Discussion Plans</li>
-            <li>About</li>
-        </ul></nav>
-        
+        <nav>
+            <ul id="nav">
+                <li>Home</li>
+                <li>How to Use This Site</li>
+                <li><a href="definition.xhtml">Methodology</a></li>
+                <li><a href="stories_page.xhtml">Stories</a></li>
+                <li><a href="discPlans.xhtml">Discussion Plans</a></li>
+                <li><a href="about.xhtml">About</a>
+                </li>
+            </ul>
+        </nav>
         <header>
             <h1>Sultana’s Dream</h1>
             <h2>Rokeya Sakhawat Hossain</h2>
         </header>
         
         <section id="wrapper">
+            <div id="textdisc">
+                <ul>
+                    <li><a>Text</a></li>
+                    <li><a>Discussion Plan</a></li>
+                </ul>
+            </div>
             <section id="sidebar">
+               <h4> </h4>
                 <h4>Literaray Analysis</h4>
-                <p><input type="checkbox" name="lit" id="plot"/><label for="plot">plot</label></p>
-                <p><input type="checkbox" name="lit" id="setting"/><label for="setting">setting</label></p>
+                <p><label for="plot"><input type="checkbox" name="lit" id="plot"/>plot</label></p>
+                <p><label for="setting"><input type="checkbox" name="lit" id="setting"/>setting</label></p>
+                <p><label for="setting"><input type="checkbox" name="lit" id="scifi"/>sci-fi tropes</label></p>
+                <p><label for="setting"><input type="checkbox" name="lit" id="litdev"/>literary devices</label></p>
+                <p><label for="setting"><input type="checkbox" name="lit" id="theme"/>themes</label></p> 
                 <h4>Critical Analysis</h4>
-                <p><input type="checkbox" name="axe" id="race"/><label for="race">race</label></p>
-                <p><input type="checkbox" name="axe" id="class"/><label for="class">class</label></p>         
-                <p><input type="checkbox" name="axe" id="gender"/><label for="gender">gender</label></p>             
-                <p><input type="checkbox" name="axe" id="orientation"/><label for="orientation">orientation</label></p>             
-                <p><input type="checkbox" name="axe" id="ability"/><label for="ability">ability</label></p>
+                <p><label for="race"><input type="checkbox" name="axe" id="race"/>race</label></p>
+                <p><label for="class"><input type="checkbox" name="axe" id="class"/>class</label></p>         
+                <p><label for="gender"><input type="checkbox" name="axe" id="gender"/>gender</label></p>             
+                <p><label for="orientation"><input type="checkbox" name="axe" id="orientation"/>orientation</label></p>             
+                <p><label for="ability"><input type="checkbox" name="axe" id="ability"/>ability</label></p>
                 <h4>Opportunities for Empathy</h4>
-                <p><input type="checkbox" name="emp" id="cbt"/><label for="cbt">CBT</label></p>
-                <p><input type="checkbox" name="emp" id="dbt"/><label for="dbt">DBT</label></p>
+                <p><label for="cbt"><input type="checkbox" name="emp" id="cbt"/>CBT</label></p>
+                <p><label for="dbt"><input type="checkbox" name="emp" id="dbt"/>DBT</label></p>
             </section>
-           
+         
+            
+            
             <section id="bod">
                 <p>One evening I was lounging in an easy chair in my bedroom and thinking lazily of
                     the condition of Indian womanhood. I am not sure whether I dozed off or not.

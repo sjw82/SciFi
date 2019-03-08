@@ -3,81 +3,50 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>The Comet</title>
-        <link rel="stylesheet" type="text/css" href="scifi.css" />
+        <link rel="stylesheet" type="text/css" href="combo.css" />
     </head>
     <body>
+
+        <nav>
+            <ul id="nav">
+                <li>Home</li>
+                <li>How to Use This Site</li>
+                <li><a href="definition.xhtml">Methodology</a></li>
+                <li><a href="stories_page.xhtml">Stories</a></li>
+                <li><a href="discPlans.xhtml">Discussion Plans</a></li>
+                <li><a href="about.xhtml">About</a>
+                </li>
+            </ul>
+        </nav>
         <header>
             <h1>The Comet</h1>
             <h2>W.E.B. DuBois</h2>
         </header>
-        <!-- these would by hyperlinked to other parts of the site -->
-        <nav><ul>
-                <li><a href="index.xhtml">Home</a></li>
-                <li>Definition of Science Fiction</li>
-                <li><a href="stories_page.xhtml">Stories</a></li>
-                <li>Discussion Plans</li>
-                <li>About</li>
-            </ul></nav>
-        <div id="dropDown">
-            <table>
-                <tr>
-                    <th>Search by Character</th>
-                    <th>Search by Characteristic</th>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="custom-select">
-                            <select name="characters">
-                                <optgroup label="characters">
-                                    <option value="character">Character</option>
-                                    <option value="Jim">Jim</option>
-                                    <option value="President">Bank President</option>
-                                    <option value="Julia">Julia</option>
-                                    <option value="J.B.H">J.B.H., Julia's Father</option>
-                                    <option value="Fred">Fred, Julia's Fiance</option>
-                                    <option value="Wife">Jim's Wife</option>
-                                    <option value="Baby">Jim's Baby</option>
-                                </optgroup>
-                            </select>
-                        </div></td>
 
-
-
-                    <td>
-                        <div class="custom-select">
-                            <select name="characters">
-                                <optgroup label="characters">
-                                    <option value="characteristic">Characteristic</option>
-                                    <option value="race">race</option>
-                                    <option value="class">class</option>
-                                    <option value="gender">gender</option>
-                                    <option value="orientation">orientation</option>
-                                    <option value="ability">ability</option>
-                                </optgroup>
-                            </select>
-                        </div></td>
-                </tr>
-            </table>
-        </div>
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Clients</a>
-            <a href="#">Contact</a>
-        </div>
-        <!-- Use any element to open the sidenav -->
-        <span onclick="openNav()">open</span>
-        <script>
-            function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-}
-
-/* Set the width of the side navigation to 0 */
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-}</script>
-        <p>He stood a moment on the steps of the bank, watching the human river that swirled down
+        <section id="wrapper">
+            <section id="sidebar">
+                <h4>Literaray Analysis</h4>
+                <p><label for="plot"><input type="checkbox" name="lit" id="plot"/>plot</label></p>
+                <p><label for="setting"><input type="checkbox" name="lit" id="setting"/>setting</label></p>
+                <p><label for="setting"><input type="checkbox" name="lit" id="scifi"/>sci-fi tropes</label></p>
+                <p><label for="setting"><input type="checkbox" name="lit" id="litdev"/>literary devices</label></p>
+                <p><label for="setting"><input type="checkbox" name="lit" id="theme"/>themes</label></p> 
+                <h4>Critical Analysis</h4>
+                <p><label for="race"><input type="checkbox" name="axe" id="race"/>race</label></p>
+                <p><label for="class"><input type="checkbox" name="axe" id="class"/>class</label></p>         
+                <p><label for="gender"><input type="checkbox" name="axe" id="gender"/>gender</label></p>             
+                <p><label for="orientation"><input type="checkbox" name="axe" id="orientation"/>orientation</label></p>             
+                <p><label for="ability"><input type="checkbox" name="axe" id="ability"/>ability</label></p>
+                <h4>Opportunities for Empathy</h4>
+                <p><label for="cbt"><input type="checkbox" name="emp" id="cbt"/>CBT</label></p>
+                <p><label for="dbt"><input type="checkbox" name="emp" id="dbt"/>DBT</label></p>
+            </section>
+            <div id="textdisc">
+                <div class="story"><a>Text</a></div><div class="story"><a>Discussion Plan</a></div>
+            </div>
+            
+       <section id="bod">
+           <p>He stood a moment on the steps of the bank, watching the human river that swirled down
             Broadway. Few noticed him. Few ever noticed him save in a way that stung. He was outside
             the world—"nothing!" as he said bitterly. Bits of the words of the walkers came to
             him.</p>
@@ -144,6 +113,7 @@ function closeNav() {
             oozing mouth of the president where he lay half-buried on his desk. Then a new thought
             seized him: If they found him here alone—with all this money and all these dead men—what
             would his life be worth? He glanced about, tiptoed cautiously to a side door, and again
-            looked behind. Quietly he turned the latch and stepped out into Wall Street.</p>
+            looked behind. Quietly he turned the latch and stepped out into Wall Street.</p></section>
+        </section>
     </body>
 </html>

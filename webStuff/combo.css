@@ -1,0 +1,233 @@
+/* Why not *{ display: flex;}*/
+#wrapper {
+    display: flex;
+    flex-direction: row;
+}
+#sidebar {
+display: flex;
+flex-direction: column;
+    width: 33%;
+    padding-right: 8%;
+    padding-left: 2%;
+    background-color: PaleTurquoise ;
+    justify-content: flex-start;
+    float: left;
+}
+#textdisc {
+    display: flex;
+    justify-content: center;
+        justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    background-color: PaleTurquoise;
+    align-items: flex-start;
+    position: absolute;
+    width: 100%;
+}
+div .story {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    padding: 0 10px;
+    overflow: hidden;
+    text-align: center;
+   
+}
+#bod{
+    padding: 10px;
+    position: relative;
+}
+
+
+header {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 700
+}
+
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    align-self: baseline;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    padding: 0 10px;
+    overflow: hidden;
+    background-color: lightcyan;
+    text-align: center;
+    border-top-color: white;
+    border: 2px outset cyan
+
+}
+nav ul {
+    margin: auto;
+    display: flex;
+    align-self: center;
+}
+nav ul li {
+    display: flex;
+    align-self: center;
+ 
+    list-style-type: none;
+}
+li {
+    display: block;
+    font-size: 20px;
+    float: left;
+    position: relative;
+}
+li:hover {
+  cursor: pointer;
+}
+#nav > a {
+     color: black;
+}
+#nav > a:visited {
+    color: black
+}
+/* why doesn't the above work? The links still turn gray */
+#homepg {
+    margin: 0;
+    padding: 0;
+}
+#navbox{
+    display: flex;
+    flex-direction: row;
+}
+#navbox > a {
+    color: black;
+background-color: white;
+    position: relative;
+    display: block;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    border: 1px black solid;
+    margin: 0 .25em;
+    border-radius: 1em;
+    text-decoration: none;
+}
+#navbox > a:hover {
+    background-color: lightgray;
+}
+
+a:link {
+    color: DarkBlue;
+    text-decoration: none;
+}
+a:visited {
+    color: gray
+}
+a:hover {
+    color: Aqua
+}
+a:active {
+    color: BlueViolet
+}
+
+#storytable {
+    display: flex;
+    justify-content: center;
+}
+.stories table {
+    border-style: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+    display: inline-block;
+    margin: auto
+}
+.stories tr:hover {
+    background-color: MistyRose
+}
+.stories th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center
+}
+optgroup {
+    display: inline-block;
+    border: 2px solid Moccasin
+}
+/* div {
+    text-align: center;
+    padding: 40px
+}*/
+body {
+    text-align: center;
+    background-color: azure;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-size: 36px
+}
+h2 {
+    font-size: 26px
+}
+h3 {
+    font-size: 18px
+}
+h4 {
+    font-size: 16px
+}
+p {
+    padding-left: 1%;
+    font-size: 15px;
+    text-indent: 50px
+}
+section p {
+    text-align: left;
+    padding: 0
+}
+#homebody {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+    margin-top: 2%;
+    margin-bottom: 0;
+    }
+    
+#aboutmenu {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    align-self: baseline;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    text-align: center;
+    border: gray 1px solid;
+
+}
+nav ul {
+    margin: auto;
+    display: flex;
+    align-self: center;
+}
+nav ul li {
+    display: flex;
+    align-self: center;
+ 
+    list-style-type: none;
+}
+li {
+    display: block;
+    font-size: 20px;
+    float: left;
+    position: relative;
+}
+li:hover {
+  cursor: pointer;
+}
