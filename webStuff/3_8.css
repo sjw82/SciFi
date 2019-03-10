@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    }
+body > section {
+    display: flex;
+    flex-direction: row;
+}
+section > section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+section, aside, nav, h1, div {
+    border: 1px black solid;
+    padding: 1em;
+ margin: 0;
+ padding: 0;
+}
+#buttons {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-evenly;
+}
+#discussiontext {
+    display: none;
+}

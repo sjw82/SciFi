@@ -118,6 +118,9 @@ background-color: white;
 #navbox > a:hover {
     background-color: lightgray;
 }
+#navbox > a > p{
+    text-indent
+}
 
 a:link {
     color: DarkBlue;
