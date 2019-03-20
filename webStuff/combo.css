@@ -119,7 +119,7 @@ background-color: white;
     background-color: lightgray;
 }
 #navbox > a > p{
-    text-indent
+    text-indent: 0;
 }
 
 a:link {
@@ -234,3 +234,62 @@ li {
 li:hover {
   cursor: pointer;
 }
+
+#tale {
+    display: flex;
+    flex-direction: column;
+    }
+body > section {
+    display: flex;
+    flex-direction: row;
+}
+#aside {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding-right: 8%;
+    padding-left: 2%;
+    background-color: PaleTurquoise ;
+    justify-content: flex-start;
+    float: left;
+}
+#page > #buttonswtext {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+section, aside, h1, div {
+    border: none;
+    padding: 1em;
+ margin: 0;
+ padding: 0;
+}
+#aside p {
+    padding: 0%;
+    Line-Height: 0%;
+}
+#side {
+    position: fixed;
+}
+#buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    font-size: 20px;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+.button {
+    border: lightcyan 2px solid;
+    background-color: PaleTurquoise;
+    border-radius: 7px;
+    width: 100%;
+    height: 100%;
+    }
+#discussiontext {
+    display: none;
+}
+#storytext, #discussiontext {
+    padding-left: 4%;
+    padding-top: 2%;
+    }

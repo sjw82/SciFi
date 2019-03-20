@@ -2,19 +2,43 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>Faje title</title>
-        <link rel="stylesheet" type="text/css" href="3_8.css" />
+        <title>The Comet</title>
+        <link rel="stylesheet" type="text/css" href="combo.css" />
         <script type="text/javascript" src="3_8.js"></script>
     </head>
-    <body>
-        <nav>Nav</nav>
-        <h1>Select a Text</h1>
-        <section>
-            <aside>Here is some content</aside>
-            <section>
+    <body id="tale">
+        <!--#include virtual="navmenu.html" -->
+        <h1>The Comet</h1>
+        <section id="page">
+            <aside>
+                <div id="side"><h4>Literaray Analysis</h4>
+                <p><label for="plot"><input type="checkbox" name="lit" id="plot" />plot</label></p>
+                <p><label for="setting"><input type="checkbox" name="lit" id="setting"
+                        />setting</label></p>
+                <p><label for="scifi"><input type="checkbox" name="lit" id="scifi" />sci-fi
+                        tropes</label></p>
+                <p><label for="litdev"><input type="checkbox" name="lit" id="litdev" />literary
+                        devices</label></p>
+                <p><label for="theme"><input type="checkbox" name="lit" id="theme"
+                         />themes</label></p>
+                <h4>Critical Analysis</h4>
+                <p><label for="race"><input type="checkbox" name="axe" id="race" />race</label></p>
+                <p><label for="class"><input type="checkbox" name="axe" id="class"
+                     />class</label></p>
+                <p><label for="gender"><input type="checkbox" name="axe" id="gender"
+                         />gender</label></p>
+                <p><label for="orientation"><input type="checkbox" name="axe" id="orientation"
+                         />orientation</label></p>
+                <p><label for="ability"><input type="checkbox" name="axe" id="ability"
+                         />ability</label></p>
+                <h4>Opportunities for Empathy</h4>
+                <p><label for="cbt"><input type="checkbox" name="emp" id="cbt" />CBT</label></p>
+                <p><label for="dbt"><input type="checkbox" name="emp" id="dbt" />DBT</label></p></div>
+            </aside>
+            <section id="buttonswtext">
                 <div id="buttons">
-                    <div class="button" id="story">story title here</div>
-                    <div class="button" id="discussion">discussion plan</div>
+                    <div class="button" id="story">Text</div>
+                    <div class="button" id="discussion">Discussion Plan</div>
                 </div>
                 <div id="wrapper">
                     <div id="storytext">
