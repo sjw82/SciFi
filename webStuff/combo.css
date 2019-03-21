@@ -4,19 +4,19 @@
     flex-direction: row;
 }
 #sidebar {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
     width: 33%;
     padding-right: 8%;
     padding-left: 2%;
-    background-color: PaleTurquoise ;
+    background-color: PaleTurquoise;
     justify-content: flex-start;
     float: left;
 }
 #textdisc {
     display: flex;
     justify-content: center;
-        justify-content: space-between;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin: 0;
     background-color: PaleTurquoise;
@@ -34,9 +34,9 @@ div .story {
     padding: 0 10px;
     overflow: hidden;
     text-align: center;
-   
+
 }
-#bod{
+#bod {
     padding: 10px;
     position: relative;
 }
@@ -75,7 +75,7 @@ nav ul {
 nav ul li {
     display: flex;
     align-self: center;
- 
+
     list-style-type: none;
 }
 li {
@@ -85,10 +85,10 @@ li {
     position: relative;
 }
 li:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 #nav > a {
-     color: black;
+    color: black;
 }
 #nav > a:visited {
     color: black
@@ -98,13 +98,13 @@ li:hover {
     margin: 0;
     padding: 0;
 }
-#navbox{
+#navbox {
     display: flex;
     flex-direction: row;
 }
 #navbox > a {
     color: black;
-background-color: white;
+    background-color: white;
     position: relative;
     display: block;
     width: 33%;
@@ -118,7 +118,7 @@ background-color: white;
 #navbox > a:hover {
     background-color: lightgray;
 }
-#navbox > a > p{
+#navbox > a > p {
     text-indent: 0;
 }
 
@@ -152,7 +152,8 @@ a:active {
 .stories tr:hover {
     background-color: MistyRose
 }
-.stories th, td {
+.stories th,
+td {
     border: 1px solid black;
     padding: 10px;
     text-align: center
@@ -166,7 +167,6 @@ optgroup {
     padding: 40px
 }*/
 body {
-    text-align: center;
     background-color: azure;
     padding: 0;
     margin: 0;
@@ -184,7 +184,6 @@ h4 {
     font-size: 16px
 }
 p {
-    padding-left: 1%;
     font-size: 15px;
     text-indent: 50px
 }
@@ -198,8 +197,8 @@ section p {
     padding: 0;
     margin-top: 2%;
     margin-bottom: 0;
-    }
-    
+}
+
 #aboutmenu {
     display: flex;
     flex-direction: row;
@@ -222,7 +221,7 @@ nav ul {
 nav ul li {
     display: flex;
     align-self: center;
- 
+
     list-style-type: none;
 }
 li {
@@ -232,13 +231,17 @@ li {
     position: relative;
 }
 li:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
-
+#header {
+    text-align: center;
+    margin: 0;
+    
+}
 #tale {
     display: flex;
     flex-direction: column;
-    }
+}
 body > section {
     display: flex;
     flex-direction: row;
@@ -249,7 +252,7 @@ body > section {
     width: 33%;
     padding-right: 8%;
     padding-left: 2%;
-    background-color: PaleTurquoise ;
+    background-color: PaleTurquoise;
     justify-content: flex-start;
     float: left;
 }
@@ -258,24 +261,35 @@ body > section {
     flex-direction: column;
     width: 100%;
 }
-section, aside, h1, div {
+section,
+aside,
+h1,
+div {
     border: none;
     padding: 1em;
- margin: 0;
- padding: 0;
+    margin: 0;
+    padding: 0;
 }
 #aside p {
-    padding: 0%;
-    Line-Height: 0%;
+    margin: 2%;
+    padding: 0;
+    line-height: 0;
 }
 #side {
     position: fixed;
+}
+#side > h2 {
+    font-size: 20px;
+}
+#title {
+    text-shadow: 2px 3px lightcyan;
 }
 #buttons {
     display: flex;
     flex-direction: row;
     align-items: stretch;
     font-size: 20px;
+    text-align: center;
     align-items: stretch;
     justify-content: space-evenly;
 }
@@ -285,11 +299,12 @@ section, aside, h1, div {
     border-radius: 7px;
     width: 100%;
     height: 100%;
-    }
+}
 #discussiontext {
     display: none;
 }
-#storytext, #discussiontext {
+#storytext,
+#discussiontext {
     padding-left: 4%;
     padding-top: 2%;
-    }
+}
