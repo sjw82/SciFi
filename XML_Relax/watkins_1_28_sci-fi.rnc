@@ -42,7 +42,9 @@ loc = attribute loc {text}
 
 dbt = element dbt {content?, text}
 # an ill-defined element as of right now but I am marking for places that I initially see examples of or opportunity for dialectical thought or behavior
-cbt = element cbt {content?, text}
+cbt = element cbt {cogdist, content?, text}
+cogdist = attribute cogdist {text}
+
 
 theme = element theme {content?, topic, text}
 topic = attribute topic {text}
@@ -53,8 +55,11 @@ term = attribute term {text}
 definition = attribute definition {text}
 # way to include definitions of difficult words; definitions from google dictionary
 
-q = element q {quest?, content, text}
+q = element q {quest, qual, note?, content, text}
 quest = attribute quest {text}
+qual = attribute qual {text}
+# critThink, dbt, emp, cbt
+note = attribute note {text}
 # going to tag opportunities for questions
 
 child = element child {content?, text}
