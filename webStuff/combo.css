@@ -203,6 +203,7 @@ section p {
     padding: 0;
     margin-top: 2%;
     margin-bottom: 0;
+    text-align: center;
 }
 
 #aboutmenu {
@@ -320,7 +321,11 @@ div {
     font-size: 15px;
     list-style-type: circle;
 }
-#discussiontext ul li {
+#discussiontext ul li {na
     font-size: 15px;
     list-style-type: circle;
+}
+#discpg, #aboutbody, #defpg {
+    padding-left: 10%;
+    padding-right: 10%;
 }
