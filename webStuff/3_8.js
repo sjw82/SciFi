@@ -22,11 +22,11 @@ function highlight() {
     var targets = document.getElementsByClassName(this.id);
     if (this.checked) {
         for (var i = 0; i < targets.length; i++) {
-            targets[i].classList.add("highlight");
+            targets[i].classList.add("highlight" + this.id);
         }
     } else {
         for (var i = 0; i < targets.length; i++) {
-            targets[i].classList.remove("highlight");
+            targets[i].classList.remove("highlight" + this.id);
         }
     }
 }

@@ -1,0 +1,666 @@
+<!-- SAM still gotta add in CBT/DBT -->
+<!-- Project Ideas: map the journey physical and psychological -->
+<?xml-model href="watkins_1_28_sci-fi.rnc" type="application/relax-ng-compact-syntax"?>
+<shortStory>
+    <metadata>
+        <title>THE COMET</title>
+        <author>W.E.B. DuBois</author>
+    </metadata>
+    <body>
+        <p><litdev dev="motif" motif="water">He stood a moment on the steps of <setting place="bank"
+                    >the bank</setting><!-- bank is lower case -->, watching the <litdev
+                    dev="meta motif" motif="water">human
+            river</litdev></litdev><!-- he stands on the bank of the human river --> that swirled
+            down <setting place="broadway">Broadway</setting>. <dbt>Few noticed him. Few ever
+                noticed him save in a way that stung.<axes trait="class" character="Jim">He was
+                    outside the world—<quotes>nothing!</quotes> as he said bitterly.</axes></dbt>
+            Bits of the words of the walkers came to him.</p>
+        <p><quotes>The comet?</quotes></p>
+        <p><quotes>The comet——</quotes></p>
+        <p>Everybody was talking of it. Even the president, as he entered, <axes trait="class race"
+                character="Jim">smiled patronizingly at him</axes>, and asked:</p>
+        <p><quotes>Well, Jim, are you scared?</quotes></p>
+        <p><quotes>No,</quotes>said <litdev dev="allusion">the <litdev dev="allusion"
+                    >messenger</litdev></litdev> shortly.</p>
+        <p><quotes>I thought we'd journeyed through the comet's tail once,</quotes>broke in the
+            junior clerk affably.</p>
+        <p><quotes>Oh, that was Halley's,</quotes>said the president; <quotes>this is a new comet,
+                quite a stranger, they say—wonderful, wonderful! I saw it last night.
+                <!-- how did he see it if it hasn't passed yet? Or is he referring to seeing about it on the news? -->
+                Oh, by the way, Jim,</quotes> turning again to the <litdev dev="allusion"
+                >messenger</litdev>, <quotes>I want you to go down into the lower vaults
+                today.</quotes></p>
+        <p>The <litdev dev="allusion">messenger</litdev> followed the president silently. Of course,
+            they wanted <emph font-style="italics">him</emph> to go down to the lower vaults. <axes
+                trait="class race" character="Jim">It was too dangerous for more valuable
+            men</axes>. He smiled grimly and listened.</p>
+        <!-- these are opportunities for CBT that should perhaps be forgone to keep from invalidating the underlying truth of racial injustice; they're not thought fallacies, they're accurate -->
+        <p><quotes><litdev dev="motif" motif="water"> Eything of value has been moved out since the
+                    water began to seep in,</litdev></quotes> said the president; <quotes>but we
+                miss two volumes of old records. Suppose you nose around down there,—it isn't very
+                pleasant, I suppose.</quotes></p>
+        <p><quotes>Not very,</quotes> said the <litdev dev="allusion">messenger</litdev>, as he
+            walked out.</p>
+        <p><quotes>Well, Jim, <scifi trope="apocalypse">the tail of the new comet hits us at
+                        <setting time="noon">noon</setting> this time</scifi>,</quotes> said the
+            vault clerk, as he passed over the keys; but the <litdev dev="allusion"
+                >messenger</litdev> passed silently down the stairs. Down he went <setting
+                place="broadway" loc="beneath">beneath Broadway</setting>, where <litdev dev="image"
+                >the dim light filtered through the feet of hurrying men; down to the dark basement
+                beneath; down into the blackness and silence beneath that lowest <litdev dev="meta"
+                    >cavern</litdev>. <litdev dev="meta">Here with his dark lantern he groped in the
+                    bowels of the earth, under the world.</litdev></litdev></p>
+        <p>He drew a long breath as he threw back the last great iron door and stepped into the
+                <vocab term="fetid" definition="smelling extremely unpleasant">fetid</vocab> slime
+            within. <!-- it made me add axes but I need to reread to be sure that its what I want -->
+            <litdev dev="image"><axes trait="race class" character="Jim"><q
+                        quest="Imagine Jim's world that this is where he finds peace. Compare and contrast it to your own."
+                        qual="emp">Here at last was peace</q></axes>, and he groped moodily
+                forward.</litdev>
+            <litdev dev="image" imagery="horror">A great rat leaped past him and <litdev dev="meta"
+                    >cobwebs crept across his face</litdev>.</litdev> He felt carefully around the
+            room, shelf by shelf, on the muddied floor, and in crevice and corner. Nothing. Then he
+            went back to the far end, where somehow the wall felt different. He sounded and pushed
+            and pried. Nothing. He started away. Then something brought him back. He was sounding
+            and working again when suddenly the whole black wall swung as on mighty hinges, and
+                <litdev dev="meta">blackness yawned beyond</litdev>. He peered in; <q
+                quest="Why is there a secret vault and what does the passage of time signify? Why is it meaningful that he found a vault?"
+                qual="critThink">it was evidently a secret vault—some hiding place of the old bank
+                unknown in newer times.</q> He entered hesitatingly. It was a long, narrow room with
+            shelves, and at the far end, an old iron chest.
+            <!--What is the metaphor behind missing but forgotten records? Hint I'm guessing slavery and records of people"-->
+            On a high shelf lay the two missing volumes of records, and others. He put them
+            carefully aside and stepped to the chest. <q
+                quest="What does the chest represent? What would you do in Jim's situation if you found a chest of gold?"
+                qual="critThink emp">It was old, strong, and rusty.</q> He looked at the vast and
+            old-fashioned lock and flashed his light on the hinges. They were deeply incrusted with
+            rust. <axes trait="class race" character="Jim">Looking about, he found a bit of iron and
+                began to pry. The rust had eaten a hundred years, and it had gone deep. Slowly,
+                wearily, the old lid lifted, and with a last, low groan lay bare its treasure—and he
+                saw the dull sheen of
+            gold!</axes><!-- I don't recall why I put this on these axes. Yes I do, the passage of time since slavery, ebbing at the hierarchy of white supremacy --></p>
+        <p><litdev dev="on"><quotes speaker="onomatoonompoeia">Boom!</quotes></litdev></p>
+        <p><litdev dev="image" imagery="audio">A low, grinding, reverberating crash</litdev> struck
+            upon his ear. He started up and looked about. All was black and still. He groped for his
+            light and swung it about him. Then he knew! <q
+                quest="What would have happened if the stone door hadn't sealed Jim into the anex?"
+                qual="critThink">The great stone door had swung to.</q>
+            <axes trait="class" character="Jim">He forgot the gold and looked death squarely in the
+                face.</axes>
+            <axes trait="class" character="Jim">Then with a sigh he went methodically to
+                work.</axes> The cold sweat stood on his forehead; but he searched, pounded, pushed,
+            and worked until after what seemed endless hours his hand struck a cold bit of metal and
+            the great door swung again harshly on its hinges, and then, striking against something
+            soft and heavy, stopped. He had just room to squeeze through. There lay the body of the
+            vault clerk, cold and stiff.
+            <!-- what is the vault clerk doing down here? Did he run down the stairs and through the chambers to the bowels of the Earth as he was poisoned? -->
+            He stared at it, and then felt sick and nauseated. The air seemed unaccountably foul,
+            with a strong, peculiar odor. <litdev dev="image" imagery="horror">He stepped forward,
+                clutched at the air, and fell fainting across the corpse.</litdev></p>
+        <p>He awoke with a sense of horror, leaped from the body, and groped up the stairs, calling
+            to the guard. The watchman sat as if asleep, with the gate swinging free. With one
+            glance at him the <litdev dev="allusion">messenger</litdev> hurried up to the sub-vault.
+            In vain he called to the guards. His voice echoed and re-echoed weirdly. Up into the
+            great basement he rushed. Here another guard lay prostrate on his face, cold and still.
+            A fear arose in the <litdev dev="allusion">messenger</litdev>'s heart. He dashed up to
+            the cellar floor, up into the bank. <litdev dev="image" imagery="horror">The stillness
+                of death lay everywhere and everywhere bowed, bent, and stretched the silent forms
+                of men.</litdev> The <litdev dev="allusion">messenger</litdev> paused and glanced
+            about. He was not a man easily moved; but the sight was appalling! <quotes>Robbery and
+                murder,</quotes> he whispered slowly to himself as he saw the twisted, oozing mouth
+            of the president where he lay half-buried on his desk. Then a new thought seized him: <q
+                quest="Put yourself in Jim's shoes. If you were in this situation what would you think? What would you do?"
+                qual="dbt"><axes trait="class race" character="Jim">If they found him here
+                    alone—with all this money and all these dead men—what would his life be
+                    worth?</axes></q> He glanced about, tiptoed cautiously to a side door, and again
+            looked behind. Quietly he turned the latch and stepped out into <setting
+                place="WallStreet">Wall Street</setting>.</p>
+        <p>How silent the street was! Not a soul was stirring, and yet it was <setting time="noon"
+                >high-noon</setting>—<setting place="wall street">Wall Street</setting>? <setting
+                place="broadway">Broadway</setting>? He glanced almost wildly up and down, then
+            across the street, and as he looked, a sickening horror froze in his limbs. With a
+            choking cry of utter fright he lunged, leaned giddily against the cold building, and
+            stared helplessly at the sight.</p>
+        <p><litdev dev="image" imagery="horror">In the great stone doorway <litdev dev="sim">a
+                    hundred men and women and children lay crushed and twisted and jammed, forced
+                    into that great, gaping doorway like refuse in a can</litdev>—as if in one wild,
+                frantic rush to safety, they had rushed and ground themselves to death.</litdev>
+            Slowly the <litdev dev="allusion">messenger</litdev> crept along the walls, wetting his
+            parched mouth and trying to comprehend, stilling the tremor in his limbs and the rising
+            terror in his heart. <q
+                quest="With the information you have so far, make an educated guess as to what happened while Jim was in the cellar."
+                qual="critThink">He met a business man, silk—hatted and frock—coated, who had crept,
+                too, along that smooth wall and stood now stone dead with wonder written on his
+                lips.</q> The <litdev dev="allusion">messenger</litdev> turned his eyes hastily away
+            and sought the curb. A woman leaned wearily against the signpost, her head bowed
+            motionless on her lace and silken bosom. Before her stood a street car, silent, and
+            within—but the <litdev dev="allusion">messenger</litdev> but glanced and hurried on.
+                <child>A grimy newsboy sat in the gutter with the <quotes>last edition</quotes> in
+                his uplifted hand</child>: <quotes speaker="text">Danger!</quotes> screamed its
+            black headlines. <quotes speaker="text">Warnings wired around the world. <scifi
+                    trope="apocalypse"><setting time="noon">The Comet's tail sweeps past us at
+                        noon.</setting> Deadly gases expected. Close doors and windows. Seek the
+                    cellar.</scifi></quotes> <q quest="Discuss the irony in this scene. What do you take away from it? What did the author intend for the reader to understand about society based on this scene?" qual="critThink">The <litdev dev="allusion">messenger</litdev> read and
+            staggered on.</q> <child>Far out from a window above, a girl lay with gasping face and
+                sleevelets on her arms</child>. <child>On a store step sat a little, sweet—faced
+                girl looking upward toward the skies</child>, and <child>in the carriage by her
+                lay—but the <litdev dev="allusion">messenger</litdev> looked no longer</child>. The
+            cords <!-- what does the cords refer to? --> gave way—the terror burst in his veins, and
+            with one great, gasping cry he sprang desperately forward and ran,—ran as only the
+            frightened run, shrieking and fighting the air until with one last wail of pain he sank
+            on the grass of <setting place="madisonSquare">Madison Square</setting> and lay prone
+            and still.</p>
+        <p>When he rose, he gave no glance at the still and silent forms on the benches, but, going
+            to a fountain, bathed his face; then hiding himself in a corner away from <litdev
+                dev="metaphore">the drama of death</litdev>, he quietly gripped himself and thought
+            the thing through: <scifi trope="apocalypse">The comet had swept the earth and this was
+                the end. Was everybody dead? He must search and see.</scifi></p>
+        <p>He knew that he must steady himself and keep calm, or he would go insane. First he must
+            go to a restaurant. He walked up <setting place="fifthAve">Fifth Avenue</setting> to
+                <setting place="restaurant">a famous hostelry</setting> and entered its gorgeous,
+            ghost—haunted halls. He beat back the nausea, and, seizing a tray from dead hands,
+            hurried into the street and ate ravenously, hiding to keep out the sights.</p>
+        <p><axes trait="race class" character="Jim"><quotes>Yesterday, they would not have served
+                    me,</quotes> he whispered</axes>, as he forced the food down.</p>
+        <p>Then he started up the street,—looking, peering, telephoning, ringing alarms; silent,
+            silent all. Was nobody—nobody—he dared not think the thought and hurried on.</p>
+        <p>Suddenly he stopped still. He had forgotten. My God! How could he have forgotten? <litdev
+                dev="motif" motif="technology">He must rush to the subway—then he almost laughed.
+                No—a car; if he could find a Ford.</litdev> He saw one. Gently he lifted off its
+            burden, and took his place on the seat. He tested the throttle. There was gas. He glided
+            off, shivering, and drove up the street. Everywhere stood, <litdev dev="alliteration"
+                >leaned, lounged, and lay</litdev> the dead, in grim and awful silence. On he ran
+            past an automobile, wrecked and overturned; past another, filled with a gay party whose
+            smiles yet lingered on their death—struck lips; on past crowds and groups of cars,
+            pausing by dead policemen; at <setting place="42ndStreet ParkAvenue">42nd
+                Street</setting> he had to detour to Park Avenue to avoid the dead congestion. He
+            came back on <setting place="FifthAve 57thStreet">Fifth Avenue at 57th</setting> and
+            flew past <setting place="ThePlaza">the Plaza</setting> and by <setting
+                place="CentralPark">the park</setting> with its hushed babies and silent throng,
+            until as he was rushing past <setting place="72ndStreet">72nd Street</setting> he heard
+            a sharp cry, and saw a living form leaning wildly out an upper window. He gasped.
+                <litdev dev="simile motif" motif="religion">The human voice sounded in his ears like
+                the voice of God.</litdev></p>
+        <p><quotes>Hello—hello—help, <litdev dev="motif" motif="religion">in God's
+                name!</litdev></quotes> wailed the woman. <quotes><litdev dev="im" imagery="horror"
+                    >There's a dead girl in here and a man and—and see yonder dead men lying in the
+                    street and dead horses</litdev>—<litdev dev="motif" motif="religion">for the
+                    love of God go and bring the officers</litdev>——</quotes> And <axes
+                trait="gender" character="Julia">the words trailed off into hysterical
+            tears.</axes></p>
+        <p>He wheeled the car in a sudden circle, <child>running over the still body of a
+                child</child> and leaping on the curb. <setting place="JuliasHouse">Then he rushed up the steps and tried the
+            door and rang violently.</setting> There was a long pause, but at last the heavy door swung back.
+            They stared a moment in silence. <axes trait="race" character="Julia Jim">She had not
+                noticed before that he was a Negro. He had not thought of her as white.</axes>
+            <axes trait="class" character="Julia"><litdev dev="im" imagery="wealth" motif="wealth"
+                    >She was a woman of perhaps twenty—five—rarely beautiful and richly gowned, with
+                    darkly—golden hair, and jewels.</litdev></axes>
+            <axes trait="class race" character="Jim Julia">Yesterday, he thought with bitterness,
+                she would scarcely have looked at him twice. <litdev dev="im meta" imagery="wealth"
+                    motif="wealth">He would have been dirt beneath her silken feet.</litdev></axes>
+            She stared at him. Of all the sorts of men she had pictured as coming to her rescue she
+            had not dreamed of one like him. <axes character="Julia Jim" trait="race class">Not that
+                he was not human, but <litdev dev="meta">he dwelt in a world so far from
+                    hers</litdev>, so infinitely far, that he seldom even entered her
+                thought.</axes> Yet as she looked at him curiously he seemed quite commonplace and
+            usual. <litdev dev="im motif" imagery="wealth" motif="wealth">He was a tall, dark
+                <axes character="Jim" trait="class">workingman of the better class</axes>, with a sensitive face trained to stolidity and a
+                por man's clothes and hands.</litdev> His face was soft and slow and <litdev
+                dev="simile">his manner at once cold and nervous, like fires long banked, but not
+                out</litdev>.</p>
+        <p><scifi trope="apocalypse unity">So a moment each paused and gauged the other; then
+                    <litdev dev="motif" motif="water">the thought of the dead world without rushed
+                    in</litdev> and they started toward each other.</scifi></p>
+        <p><quotes speaker="Julia">What has happened?</quotes>
+            <axes trait="gender" character="Julia">she cried</axes>. <quotes speaker="Julia">Tell
+                me! Nothing stirs. All is silence! <litdev dev="simile motif" motif="religion">I see the
+                    dead strewn before my window as winnowed by the breath of God</litdev>,—and
+                see——</quotes>
+            <axes trait="class" character="Julia"><litdev dev="im" imagery="wealth">She dragged him
+                    through great, silken hangings to where, beneath the sheen of mahogany and
+                    silver, a little French maid lay stretched in quiet, everlasting sleep, and near
+                    her a butler lay prone in his livery.</litdev></axes></p>
+        <p><axes trait="gender" character="Julia"><litdev dev="motif" motif="water">The tears
+                    streamed down the woman's cheeks</litdev> and she clung to his arm until <litdev
+                    dev="im" imagery="wealth">the perfume of her breath</litdev> swept his face and
+                he felt the tremors racing through her body.</axes></p>
+        <p><q quest="Compare and contrast the spaces that protected Jim and Julia from the comet respectively. What do they say about the characters?" qual="critThink"><axes trait="class" character="Julia">I had been shut up in my dark room developing
+                pictures of the comet which I took last night; when I came out—I saw the
+                dead!</axes></q></p>
+        <p><quotes speaker="Julia">What has happened?</quotes>
+            <axes trait="gender" character="Julia">she cried again</axes>.</p>
+        <p>He answered slowly:</p>
+        <p><quotes speaker="Jim"><scifi trope="apocalypse"><litdev dev="motif" motif="religion"
+                        >Something—comet or devil—swept across the earth</litdev> this morning
+                    and—many are dead!</scifi></quotes></p>
+        <p><quotes speaker="Julia">Many? Very many?</quotes></p>
+        <p><quotes speaker="Jim">I have searched and I have seen no other living soul but
+                you.</quotes></p>
+        <p>She gasped and they stared at each other.</p>
+        <p><quotes speaker="Julia">My—father!</quotes> she whispered.</p>
+        <p><quotes speaker="Jim">Where is he?</quotes></p>
+        <p><quotes speaker="Julia">He started for the office.</quotes></p>
+        <p><quotes speaker="Jim">Where is it?</quotes></p>
+        <p><quotes speaker="Julia">In the <setting place="MetropolitcanTower">Metropolitan
+                    Tower</setting>.</quotes></p>
+        <p><quotes speaker="Jim">Leave a note for him here and come.</quotes></p>
+        <p>Then he stopped.</p>
+        <!-- The following two lines are related on the same axes; I wouldn't count them as separate instances but seeing as I'm not calculating anything, does it particularly matter if they're marked separately? -->
+        <p><axes trait="class race" character="Jim"><quotes speaker="Jim">No,</quotes> he said
+                    firmly—<quotes speaker="Jim">first, we must go—to Harlem.</quotes></axes></p>
+        <p><axes trait="class race" character="Julia"><quotes speaker="Julia">Harlem!</quotes>
+                <axes trait="gender" character="Julia">she cried</axes>. <q quest="What is Julia thinking in this moment? What does she realize? What does her subsequent behavior reflect on her?" qual="cbt">Then she understood.</q></axes>
+            She tapped her foot at first impatiently. She looked back and shuddered. Then she came
+            resolutely down the steps.</p>
+        <p><axes trait="gender" character="Julia Jim"><quotes speaker="Julia"><litdev dev="motif"
+                        motif="technology">There's a swifter car in the garage in the
+                        court,</litdev></quotes> she said.</axes></p>
+        <p><axes trait="gender" character="Julia Jim"><quotes speaker="Jim">I don't know how to
+                    drive it,</quotes> he said.</axes></p>
+        <p><axes trait="gender" character="Julia Jim"><quotes speaker="Julia">I do,</quotes> <q quest="Consider the choise of language in these three lines. What does it mean that Julia answered a question that was not asked? What assumptions does Jim make?" qual="dbt">she
+                answered.</q></axes></p>
+        <!-- she answered but he said; gender because he didn't bother to ask; she is "answering" a statement -->
+        <p>In ten minutes they were flying to <setting place="Harlem">Harlem</setting> on the wind.
+                <litdev dev="motif" motif="technology">The Stutz rose and raced like an
+                airplane.</litdev> They took the turn at <setting place="110thStreet 135thStreet"
+                >110th Street</setting> on two wheels and slipped with a shriek into 135th.</p>
+        <p><setting place="JimsHouse">He was gone but a moment</setting>. Then he returned, and his face was gray. She did not look, but
+            said:</p>
+        <p><quotes speaker="Julia">You have lost—somebody?</quotes></p>
+        <p><quotes speaker="Jim">I have lost—everybody,</quotes> he said, simply—<quotes
+                speaker="Jim">unless——</quotes></p>
+        <p>He ran back and was gone several minutes—hours they seemed to her.</p>
+        <p><quotes speaker="Jim">Everybody,</quotes> he said, and <q quest="What do you think Jim went back to check? What do you think he brought back?" qual="critThink">he walked slowly back with <litdev
+                dev="simile">something film—like</litdev> in his hand which he stuffed into his
+            pocket.</q></p>
+        <p><q quest="In your opinion, was Jim selfish?" qual="cbt"><quotes speaker="Jim">I'm afraid I was selfish,</quotes> he said.</q> <axes trait="race"
+                character="populace">But already the car was moving toward <setting
+                    place="CentralPark">the park</setting> among the dark and lined dead of <setting
+                    place="Harlem">Harlem</setting>—the brown, still faces, the knotted hands, the
+                homely garments, and the silence—the wild and haunting silence.</axes> Out of the
+            park, and down <setting place="FifthAvenue">Fifth Avenue</setting> they whirled. In and
+            out among the dead they slipped and quivered, needing no sound of bell or horn, until
+            the great, square <setting place="MetropolitanTower">Metropolitan Tower</setting> hove
+            in sight. Gently he laid the dead elevator boy aside; <litdev dev="motif" motif="technology">the car shot upward</litdev>. The door of
+            the office stood open. <litdev dev="im" imagery="horror">On the threshold lay the
+                stenographer, and, staring at her, sat the dead clerk.</litdev> The inner office was
+            empty, but a note lay on the desk, folded and addressed but unsent:</p>
+        <p>Dear Daughter:</p>
+        <p><axes trait="class" character="Fred">I've gone for a hundred mile spin in Fred's new
+                Mercedes. Shall not be back before dinner. I'll bring Fred with me.</axes></p>
+        <p>J.B.H.</p>
+        <p><quotes speaker="Julia">Come,</quotes>
+            <axes trait="gender" character="Julia">she cried</axes> nervously. <quotes
+                speaker="Julia">We must search the city.</quotes></p>
+        <p><q quest="What is the importance of place in this text?" qual="critThink">Up and down,
+                over and across, back again—on went that ghostly search. Everywhere was silence and
+                death—death and silence! They hunted from <setting place="MadisonSquare">Madison
+                    Square</setting> to <setting place="SpuytenDuyvel">Spuyten Duyvel</setting>;
+                they rushed across the <setting place="WilliamsburgBridge">Williamsburg
+                    Bridge</setting>; they swept over <setting place="Brooklyn">Brooklyn</setting>;
+                from <setting place="BatteryPark">the Battery</setting> and <setting
+                    place="MorningsideHeights">Morningside Heights</setting>
+                <litdev dev="motif" motif="water">they scanned the river</litdev>. Silence, silence
+                everywhere, and no human sign. Haggard and bedraggled they puffed a third time
+                slowly down <setting place="Broadway">Broadway</setting>, under the broiling sun,
+                and at last stopped.</q> He sniffed the air. An odor—a smell—and with the shifting
+            breeze a sickening stench filled their nostrils and brought its awful warning. <q quest="Consider the language applied to Julia: how she often cries out or behaves helplessly. What is DuBois trying to say about her character?" qual="critThink"><axes
+                trait="gender" character="Julia">The girl settled back helplessly in her
+                seat.</axes></q></p>
+        <p><axes trait="gender" character="Julia"><quotes>What can we do?</quotes>
+                <axes trait="gender" character="Julia">she cried</axes>.</axes></p>
+        <!-- first axes because she cried has been recurring, second because what do we do is a woman's line in every movie a la Reese Witherspoon -->
+        <p><axes trait="gender" character="Jim">It was his turn now to take the lead, and he did it
+                quickly.</axes></p>
+        <p><quotes speaker="Jim"><litdev dev="motif" motif="technology">The long distance
+                    telephone—the telegraph and the cable—night rockets and
+                then—flight!</litdev></quotes></p>
+        <p><axes trait="gender race" character="Julia Jim">She looked at him now with strength and
+                confidence. He did not look like men, as she had always pictured men; but he acted
+                like one and she was content.</axes>
+            <!-- this would actually be evidence for Julia rather than Jim but the quotes concerns him. Thinking I might remove him but idk yet -->
+            In fifteen minutes they were at the <setting place="CentralTelephoneExchange">central
+                telephone exchange</setting>. <axes trait="gender" character="Jim Julia">As they
+                came to the door he stepped quickly before her and pressed her gently back as he
+                closed it. <!-- again this more defines his masculinity than her femininity so should she be included? -->
+                <axes trait="gender" character="Julia Jim">She heard him moving to and fro, and knew
+                    his burdens—the poor, little burdens he bore.</axes> When she entered, he was
+                alone in the room.</axes>
+            <litdev dev="personfication motif" motif="technology">The grim switchboard flashed its
+                metallic face in cryptic, sphinx—like immobility.</litdev>
+            <litdev dev="im motif" imagery="horror" motif="technology">She seated herself on a stool
+                and donned the bright earpiece. She looked at the mouthpiece. She had never looked
+                at one so closely before. <litdev dev="personification">It was wide and black,
+                    pimpled with usage; inert; dead; almost sarcastic in its unfeeling
+                    curves</litdev>. It looked—she beat back the thought—but it looked,—it persisted
+                in looking like—she turned her head and found herself alone.</litdev> One moment she
+            was terrified; then she thanked him silently for his delicacy and turned resolutely,
+            with a quick intaking of breath.</p>
+        <!-- The above paragraph is confusing. What does the mouthpiece look like? Also, lots of questions in regards to tagging. Does she sit because shes a woman and women run switchboards or because she has a stake in the game? -->
+        <p><quotes speaker="Julia">Hello!</quotes>
+            <scifi trope="apocalypse">she called in low tones. She was calling to the world. The
+                world must answer. Would the world answer? Was the world——</scifi></p>
+        <p>Silence!</p>
+        <p>She had spoken too low.</p>
+        <p><quotes speaker="Julia">Hello!</quotes>
+            <axes trait="gender" character="Julia">she cried</axes>, full—voiced.</p>
+        <p>She listened. Silence! Her heart beat quickly. <axes trait="gender" character="Julia">She
+                cried</axes> in clear, distinct, loud tones: <quotes speaker="Julia"
+                >Hello—hello—hello!</quotes></p>
+        <p>What was that whirring? Surely—no—was it the click of a receiver?</p>
+        <p><litdev dev="motif" motif="technology">She bent close, she moved
+                    the pegs in the holes, and called and called, until her voice rose almost to a
+                    shriek, and her heart hammered.</litdev>
+                <litdev dev="motif" motif="religion">It was as if she had heard the last flicker of
+                    creation, and the evil was silence.</litdev> Her voice dropped to a sob.
+                <axes trait="gender" character="Julia">She sat stupidly staring into the black and
+                sarcastic mouthpiece</axes>, and the thought came again. <q
+                quest="How does technology provide hope in this story? With the antagonist being a force of nature, does this story conform or subvert genre standards in it's use of technology"
+                qual="critThink">Hope lay dead within her. Yes, the cable and the rockets remained;
+                but the world</q>—she could not frame the thought or say the word. It was too
+            mighty—too terrible! <axes trait="gender" character="Julia Jim">She turned toward the
+                door with a new fear in her heart. For the first time she seemed to realize that she
+                was alone in the world with a stranger, <axes trait="race" character="Jim">with
+                    something more than a stranger,—with <scifi trope="alien">a man alien in blood
+                        and culture—unknown, perhaps unknowable</scifi></axes>.It was awful! She
+                must escape—she must fly; he must not see her again. Who knew what awful
+                thoughts—</axes></p>
+        <p><axes trait="class gender" character="Julia"><litdev dev="im" imagery="wealth">She
+                    gathered her silken skirts deftly about her young, smooth limbs—listened, and
+                    glided into a sidehall.</litdev></axes> A moment she shrank back: the hall lay
+            filled with dead women; then she leaped to the door and tore at it, with bleeding
+            fingers, until it swung wide. She looked out. He was standing at the top of the
+            alley,—silhouetted, tall and black, motionless. <q
+                quest="What is the power of the male gaze and male presence in this scene?"
+                qual="critThink emp"><axes trait="gender" character="Julia">Was he looking at her or
+                    away?</axes></q> She did not know—she did not care. She simply leaped and
+            ran—ran until she found herself alone amid the dead and the tall ramparts of towering
+            buildings.</p>
+        <p><axes trait="gender" character="Julia">She stopped. She was alone. Alone! Alone on the
+                streets—alone in the city—perhaps alone in the world! There crept in upon her the
+                sense of deception—of creeping hands behind her back—of silent, moving things she
+                could not see,—of voices hushed in fearsome conspiracy. <q quest="Put yourself in Julia's shoes. What are her options in this scene? Which option would you choose and why?" qual="cbt">She looked behind and
+                sideways, started at strange sounds and heard still stranger, until every nerve
+                within her stood sharp and quivering, stretched to scream at the barest touch.</q> She
+                whirled and flew back, <axes trait="gender" character="Julia">whimpering like a
+                    child</axes>, until she found that narrow alley again and the dark, silent
+                figure silhouetted at the top. She stopped and rested; then she walked silently
+                toward him, looked at him timidly; but he said nothing as he handed her into the
+                car.</axes> Her voice caught as she whispered:</p>
+        <p><axes trait="gender race" character="Julia"><quotes speaker="Julia"
+                >Not—that.</quotes></axes></p>
+        <p><q
+                quest="She had a very real concern, one that women experience daily, that Jim hadn't even considered. What concerns are unique to each character and how has the end of society changed those concerns?"
+                qual="emp">And <axes trait="gender race" character="Jim">he answered slowly: <quotes
+                        speaker="Jim">No—not that!</quotes></axes></q></p>
+        <p>They climbed into the car. <axes trait="class race" character="populace">She bent forward
+                on the wheel and sobbed, with great, dry, quivering sobs, as they flew toward the
+                    <setting place="CableOffice">cable office on the east side</setting>, leaving <q
+                    quest="What is this paragraph trying to say? What is the author trying to say? Compare and contrast how death is portrayed in relation to wealth throughout the text."
+                    qual="critThink"><litdev dev="hyperbole">the world of wealth and prosperity for
+                        the world of poverty and work</litdev>. In the world behind them were death
+                    and silence, grave and grim, almost cynical, but always decent; here it was
+                    hideous. It clothed itself in every ghastly form of terror, struggle, hate, and
+                    suffering. It lay wreathed in crime and squalor, greed and lust. Only in its
+                    dread and awful silence was it like to death everywhere.</q></axes></p>
+        <p><q
+                quest="Why do Julia and Jim's mentalities shift from viewing the world as dead to viewing the world as sleeping?"
+                qual="cbt"><litdev dev="im" imagery="horror">Yet as the two, flying and alone,
+                    looked upon the horror of the world, slowly, gradually, the sense of
+                    all—enveloping death deserted them.</litdev> They seemed to move in a world
+                silent and asleep,—not dead. <axes trait="class race" character="populace">They
+                    moved in quiet reverence, lest somehow they wake these sleeping forms who had,
+                    at last, found peace.</axes></q>
+            <scifi trope="apocalypse"><litdev dev="motif" motif="religion">They moved in some
+                    solemn, world—wide <vocab term="Friedhof"
+                        definition="tract of land in which the dead are buried">Friedhof</vocab>,
+                    above which some mighty arm had waved its magic wand.</litdev></scifi>
+            <litdev dev="motif" motif="religion">All nature slept until—until, and quick with the
+                same startling thought, they looked into each other's eyes—he, ashen, and she,
+                crimson, with unspoken thought. To both, the vision of a mighty beauty—of vast,
+                unspoken things, swelled in their souls; but they put it away.</litdev></p>
+        <p><litdev dev="motif" motif="technology magic">Great, dark coils of wire came up from the
+                earth and down from the sun and entered this <q
+                    quest="Why is the cable office viewed as a low lair of witchery?"
+                    qual="critThink"
+                    note="cultural reproducition faciltiy; technology replicates in order to obfuscate realtiy (i.e. witchery) this is where they brew the lies and disseminate them for public discussion"
+                    >low lair of witchery</q>. The gathered lightnings of the world centered here,
+                binding with beams of light the ends of the earth. The doors gaped on the gloom
+                within. He paused on the threshold.</litdev></p>
+        <p><quotes speaker="Julia">Do you know the code?</quotes> she asked.</p>
+        <p><quotes speaker="Jim">I know the call for help—we used it formerly at the
+            bank.</quotes></p>
+        <p>She hardly heard. <litdev dev="motif" motif="water">She heard the lapping of the waters
+                far below,—<litdev dev="personification">the dark and restless waters</litdev>—the
+                cold and luring waters, as they called.</litdev> He stepped within. Slowly she
+            walked to the wall, where <litdev dev="motif" motif="water">the water called
+                below</litdev>, and stood and waited. Long she waited, and he did not come. <litdev
+                dev="motif" motif="water">Then with a start she saw him, too, standing beside the
+                black waters.</litdev> Slowly he removed his coat and stood there silently. <q
+                quest="Julia first felt called by the waters, but it was Jim who asked to go. How does this contribute to their character development?"
+                qual="cbt">She walked quickly to him and laid her hand on his arm. He did not start
+                or look.</q>
+            <litdev dev="motif" motif="water">The waters lapped on in luring, deadly
+                rhythm.</litdev> He pointed down to the waters, and said quietly:</p>
+        <p><quotes speaker="Jim"><litdev dev="motif" motif="water">The world lies beneath the waters
+                    now—may I go?</litdev></quotes></p>
+        <p><axes trait="class race gender" character="Julia">She looked into his stricken, tired
+                face, and a great pity surged within her heart.</axes>
+            <!-- I'm oncluding gender because its so exhausting to be the man/protector all the time, but is that reading too much onto it? -->
+            She answered in a voice clear and calm, <quotes speaker="Julia">No.</quotes></p>
+        <p>Upward they turned toward life again, and <axes trait="gender" character="Jim">he seized
+                the wheel</axes>. The world was darkening to twilight, and a great, gray pall was
+            falling mercifully and gently on the sleeping dead. <axes trait="gender"
+                character="Jim Julia">The ghastly glare of reality seemed replaced with the dream of
+                some vast romance.</axes>
+            <!-- I'm not actually sure which trait this would be -->
+            <axes trait="gender" character="Julia">The girl lay silently back, as the motor whizzed
+                along, and looked half—consciously for <litdev dev="motif" motif="magic">the
+                    elf—queen to wave life into this dead world again</litdev>.</axes>
+            <axes trait="gender" character="Julia Jim"><litdev dev="motif" motif="technology">She
+                    forgot to wonder at the quickness with which he had learned to drive her
+                    car.</litdev> It seemed natural.</axes> And then as they whirled and swung into
+                <setting place="MadisonSquare">Madison Square</setting> and at the door of the
+                <setting place="MetropolitanTower">Metropolitan Tower</setting>
+            <axes trait="gender" character="Julia">she gave a low cry, and her eyes were great!
+                    <litdev dev="motif" motif="magic">Perhaps she had seen the
+                elf—queen?</litdev></axes></p>
+        <!-- alright who is the elf-queen? what is that reference? -->
+        <p><axes trait="gender" character="Jim">The man led her to the elevator of the tower and
+                deftly they ascended.</axes> In her father's office they gathered rugs and chairs,
+            and <axes trait="gender" character="Jim">he wrote a note and laid it on the desk</axes>;
+            then they ascended to the roof and <axes trait="gender" character="Jim">he made her
+                comfortable</axes>. For a while she rested and sank to dreamy somnolence, watching
+            the worlds above and wondering. Below lay the dark shadows of the city and <litdev
+                dev="motif" motif="water">afar was the shining of the sea.</litdev>
+            <axes trait="gender class" character="Julia Jim">She glanced at him timidly as he set
+                food before her and took a shawl and wound her in it</axes>, <axes
+                trait="gender class" character="Jim Julia">touching her reverently, yet
+                tenderly</axes>. <axes trait="gender" character="Julia">She looked up at him with
+                thankfulness in her eyes, eating what he served.</axes> He watched the city. She
+            watched him. <axes trait="race" character="Jim Julia"><scifi trope="alien">He seemed
+                    very human,—very near now.</scifi></axes></p>
+        <p><axes trait="class" character="Julia Jim"><quotes speaker="Julia">Have you had to work
+                    hard?</quotes> she asked softly.</axes></p>
+        <p><axes trait="class" character="Jim Julia"><quotes speaker="Jim">Always,</quotes> he
+                said.</axes></p>
+        <p><axes trait="class" character="Julia"><quotes speaker="Julia">I have always been
+                    idle,</quotes> she said. <quotes speaker="Julia">I was rich.</quotes></axes></p>
+        <p><axes trait="class" character="Jim"><quotes speaker="Jim">I was poor,</quotes> he almost
+                echoed.</axes></p>
+        <p><axes trait="class race" character="Julia Jim"><quotes speaker="Julia"><litdev
+                        dev="allusion" allusion="Proverbs22:2">The rich and the poor are met
+                        together</litdev>,</quotes> she began</axes>, and he finished:</p>
+        <p><q
+                quest="There is religious imagery throughout the story; here the characters quote Proverbs 22:2. Is religion a force of equality in this story? If so, how? If not, what is it's function?"
+                qual="dbt"><axes trait="class race" character="Jim Julia"><quotes speaker="Jim"
+                            ><litdev dev="allusion" allusion="Proverbs22:2">The Lord is the Maker of
+                            them all.</litdev></quotes></axes></q></p>
+        <p><quotes>Yes,</quotes> she said slowly; <quotes speaker="Julia">and <axes
+                    trait="class race" character="Julia">how foolish our human distinctions
+                    seem—now</axes>,
+                <!-- I'm explicitly not including gender bc DuBois explicitly reinforced gender roles but that should also be reflected in the lesson so maybe it should be marked --></quotes>
+            looking down to the great dead city stretched below, swimming in unlightened
+            shadows.</p>
+        <p><axes trait="race class" character="Jim"><quotes speaker="Jim"><scifi trope="alien">Yes—I
+                        was not—human, yesterday</scifi>,</quotes> he said.</axes></p>
+        <p><axes trait="race class" character="Julia">She looked at him. <quotes speaker="Julia">And
+                    your people were not my people,</quotes> she said</axes>; <quotes
+                speaker="Julia">but today——</quotes> She paused. <axes trait="gender race class"
+                character="Julia Jim"><q
+                    quest="What is the distinction between a man and a gentleman? Which traits do the other male characters in the story embody?"
+                    qual="dbt">He was a man,—no more; but he was in some larger sense a
+                    gentleman,—sensitive, kindly, chivalrous, everything save his hands and—his
+                    face.</q> Yet yesterday——</axes></p>
+        <!-- I'm worried I'm using race and class too synonymously -->
+        <p><quotes speaker="Jim"><q
+                    quest="What does it say about Jim that he is able to make this allusion to a poem from 1659? What is DuBois trying to tell the reader?"
+                    qual="critThink"><litdev dev="allusion" allusion="JamesShirley"><axes
+                            character="Jim" trait="race class">Death, the
+                    leveler!</axes></litdev></q></quotes> he muttered.</p>
+        <p><quotes speaker="Julia">And the revealer,</quotes> she whispered gently, rising to her
+            feet with great eyes. He turned away, and <litdev dev="motif" motif="technology">after
+                fumbling a moment sent a rocket into the darkening air</litdev>. It arose, shrieked,
+            and flew up, a slim path of light, and scattering its stars abroad, dropped on the city
+            below. <q
+                quest="Previously, Julia had thought her hope had died, regardless of the rockets. Now she has new hope. What inspired it?"
+                qual="cbt">She scarcely noticed it.</q> A vision of the world had risen before her.
+                <axes trait="race class gender" character="Julia Jim">Slowly the mighty prophecy of
+                her destiny overwhelmed her. Above the dead past hovered <litdev dev="motif"
+                    motif="religion">the Angel of Annunciation</litdev>. She was no mere woman. She
+                was neither high nor low, white nor black, rich nor poor. She was primal woman;
+                mighty mother of all men to come and Bride of Life. She looked upon the man beside
+                her and forgot all else but his manhood, his strong, vigorous manhood—his sorrow and
+                sacrifice. She saw him glorified. He was no longer a thing apart, a creature below,
+                a strange outcast of another clime and blood, but her <litdev dev="motif"
+                    motif="religion">Brother Humanity incarnate, Son of God and great All—Father of
+                    the race to be</litdev>.</axes></p>
+        <!-- there is a lot to unpack above, need to come back to it -->
+        <p>He did not glimpse the glory in her eyes, but stood looking outward toward the sea and
+            sending rocket after rocket into the unanswering darkness. Dark—purple clouds lay banked
+            and billowed in the west. Behind them and all around, the heavens glowed in dim, weird
+            radiance that suffused the darkening world and made almost a minor music. Suddenly,
+                <litdev dev="motif" motif="religion">as though gathered back in some vast
+                hand</litdev>, <litdev dev="meta">the great cloud—curtain </litdev>fell away. Low on
+            the horizon lay a long, white star—mystic, wonderful! <litdev dev="simile">And from it
+                fled upward to the pole, like some wan bridal veil, a pale, wide sheet of flame that
+                lighted all the world and dimmed the stars.</litdev></p>
+        <!-- I'm not sure what the above para means -->
+        <p>In fascinated silence the man gazed at the heavens and dropped his rockets to the floor.
+            Memories of memories stirred to life in the dead recesses of his mind. <axes
+                trait="race" character="Jim"><litdev dev="im" imagery="slavery">The shackles seemed
+                    to rattle and fall from his soul</litdev>. Up from the crass and crushing and
+                cringing of his caste leaped the <litdev dev="motif" motif="religion">lone majesty
+                    of kings long dead</litdev>. He arose within the shadows, tall, straight, and
+                stern, with power in his eyes and ghostly scepters hovering to his grasp. <litdev
+                    dev="motif" motif="religion">It was as though some mighty Pharaoh lived again,
+                    or curled Assyrian lord</litdev>.</axes> He turned and looked upon the lady, and
+            found her gazing straight at him.</p>
+        <p>Silently, immovably, they saw each other face to face—eye to eye. <axes
+                trait="race class gender" character="Julia Jim">Their souls lay naked to the night.
+                It was not lust; it was not love—it was some vaster, mightier thing that needed
+                neither touch of body nor thrill of soul. <litdev dev="motif" motif="religion">It
+                    was a thought divine</litdev>, splendid.</axes></p>
+        <p>Slowly, noiselessly, they moved toward each other—the heavens above, the seas around, the
+            city grim and dead below. <axes trait="race" character="Jim">He loomed from out the
+                velvet shadows vast and dark.</axes>
+            <axes trait="race" character="Julia">Pearl—white and slender, she shone beneath the
+                stars.</axes>
+            <litdev dev="im" imagery="wealth">She stretched her jeweled hands abroad.</litdev> He
+            lifted up his mighty arms, and they cried each to the other, almost with one voice,
+                <quotes speaker="Jim Julia">The world is dead.</quotes></p>
+        <p><quotes speaker="Jim Julia"><litdev dev="allusion" allusion="ISamuel10:24">Long live
+                    the</litdev>——</quotes></p>
+        <p><quotes speaker="onomatoonompoeia">Honk! Honk!</quotes> Hoarse and sharp the cry of a
+            motor drifted clearly up from the silence below. They started backward with a cry and
+            gazed upon each other with eyes that faltered and fell, with blood that boiled.</p>
+        <p><quotes speaker="onomatoonompoeia">Honk! Honk! Honk! Honk!</quotes> came the mad cry
+            again, and almost from their feet a rocket blazed into the air and scattered its stars
+            upon them. <axes trait="gender" character="Julia">She covered her eyes with her hands,
+                and her shoulders heaved.</axes>
+            <axes trait="class" character="Jim">He dropped and bowed, groped blindly on his knees
+                about the floor.</axes> A blue flame spluttered lazily after an age, and she heard
+            the scream of an answering rocket as it flew.</p>
+        <p>Then they stood still as death, looking to opposite ends of the earth.</p>
+        <p><quotes speaker="onomatoonompoeia">Clang—crash—clang!</quotes></p>
+        <p>The roar and ring of swift elevators shooting upward from below made the great tower
+            tremble. A murmur and babel of voices swept in upon the night. All over the once dead
+            city the lights blinked, flickered, and flamed; and then with a sudden clanging of doors
+            the entrance to the platform was filled with men, and one with white and flying hair
+            rushed to the girl and lifted her to his breast. <quotes speaker="J.B.H.">My
+                daughter!</quotes> he sobbed.</p>
+        <!-- need to markup from here down -->
+        <p>Behind him hurried a younger, comelier man, carefully clad in motor costume, who bent
+            above the girl with passionate solicitude and gazed into her staring eyes until they
+            narrowed and dropped and her face flushed deeper and deeper crimson.</p>
+        <p><quotes speaker="Fred"><q
+                    quest="Why does Julia's name first appear so late in the story?"
+                    qual="critThink">Julia</q>,</quotes> he whispered; <quotes speaker="Fred">my
+                darling, I thought you were gone forever.</quotes></p>
+        <p>She looked up at him with strange, searching eyes.</p>
+        <p><quotes speaker="Julia">Fred,</quotes> she murmured, almost vaguely, <quotes
+                speaker="Julia">is the world—gone?</quotes></p>
+        <p><quotes speaker="Fred">Only New York,</quotes> he answered; <quotes speaker="Fred">it is
+                terrible—awful! You know,—but you, how did you escape—how have you endured this
+                horror? Are you well? Unharmed?</quotes></p>
+        <p><quotes speaker="Julia">Unharmed!</quotes> she said.</p>
+        <p><quotes speaker="Fred">And this man here?</quotes> he asked, encircling her drooping form
+            with one arm and turning toward <axes trait="race" character="Jim">the Negro</axes>.
+            Suddenly he stiffened and his hand flew to his hip. <quotes speaker="Fred">Why!</quotes>
+            he snarled. <quotes speaker="Fred"><axes trait="race gender" character="Jim Julia"
+                    >It's—a—nigger—Julia! Has he—has he dared——</axes></quotes></p>
+        <p>She lifted her head and looked at her late companion curiously and then dropped her eyes
+            with a sigh.</p>
+        <p><quotes speaker="Julia">He has dared—all, to rescue me,</quotes> she said quietly,
+                <quotes speaker="Julia">and I—thank him—much.</quotes> But she did not look at him
+            again. As the couple turned away, the father drew a roll of bills from his pockets.</p>
+        <p><quotes speaker="J.B.H.">Here, my good fellow,</quotes> he said, thrusting the money into
+            the man's hands, <quotes speaker="J.B.H.">take that,—what's your name?</quotes></p>
+        <p><axes trait="race" character="Jim"><quotes speaker="Jim">Jim Davis,</quotes></axes> came
+            the answer, hollow—voiced.</p>
+        <p><quotes speaker="J.B.H.">Well, Jim, I thank you. <axes trait="class"
+                    character="J.B.H. Jim">I've always liked your people.</axes>
+                <axes trait="class race" character="J.B.H. Jim">If you ever want a job, call on
+                    me.</axes></quotes> And they were gone.</p>
+        <!-- should I attribute unspecified quotes to a specicific entity? -->
+        <p>The crowd poured up and out of the elevators, talking and whispering.</p>
+        <p><quotes>Who was it?</quotes></p>
+        <p><quotes>Are they alive?</quotes></p>
+        <p><quotes>How many?</quotes></p>
+        <p><quotes>Two!</quotes></p>
+        <p><quotes>Who was saved?</quotes></p>
+        <p><quotes><axes trait="gender race" character="Julia Jim">A white girl and a nigger—there
+                    she goes.</axes></quotes></p>
+        <p><quotes><axes trait="race" character="Jim">A nigger? Where is he? Let's lynch the
+                    damned——</axes></quotes></p>
+        <p><quotes><axes trait="race gender" character="Jim Julia">Shut up—he's all right—he saved
+                    her.</axes></quotes></p>
+        <p><quotes><axes trait="race gender" character="Jim">Saved hell! He had no
+                business——</axes></quotes></p>
+        <!-- this is all race and gender and Jim and Julia because they are defined in relation to eachother; the fact that he had the gall to be near her is the issue moreso than his survival -->
+        <p><quotes>Here he comes.</quotes></p>
+        <p><axes trait="race" character="Jim">Into the glare of the electric lights the colored man
+                moved slowly, with the eyes of those that walk and sleep.</axes></p>
+        <p><axes trait="race gender" character="Jim Julia"><quotes>Well, what do you think of
+                    that?</quotes> cried a bystander; <quotes>of all New York, just a white girl and
+                    a nigger!</quotes></axes></p>
+        <!-- Good place for a discussion question: why were these two individuals the two survivors? In the text corner and the authors corner of the meaning making triangle -->
+        <p><axes trait="race class" character="Jim"><q
+                    quest="What traits humanize Jim? What is said to alienate him?" qual="cbt">The
+                    colored man heard nothing.</q> He stood silently beneath the glare of the light,
+                gazing at the money in his hand and shrinking as he gazed</axes>; slowly he put his
+            other hand into his pocket and brought out <child>a baby's filmy cap</child>, and gazed
+            again.<!-- Good place for a question about juxtaposition of alienating traits and humanizing traits -->
+            A woman mounted to the platform and looked about, shading her eyes. <axes
+                trait="race gender class" character="wife"><q
+                    quest="What does the symbol of the baby represent?" qual="critThink">She was
+                    brown, small, and toil—worn, and in one arm lay <child>the corpse of a dark
+                        baby</child>.</q> The crowd parted and her eyes fell on the colored man;
+                with a cry she tottered toward him.</axes></p>
+        <p><quotes speaker="wife">Jim!</quotes></p>
+        <p><q
+                quest="Society is reintroduced. Julia's community returns. What is the function of having Jim's community also return?"
+                qual="critThink">He whirled and, with a sob of joy, caught her in his arms.</q></p>
+    </body>
+</shortStory>

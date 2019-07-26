@@ -1,4 +1,6 @@
-/* Why not *{ display: flex;}*/
+/* Linting: doesn't like ID declarations and says beware of borders.*/
+/* Should I be weary of the way I have multiple font-size declarations? */
+/* Is it a problem that I have multple h1 and h2 definitions if they're in different places */
 #wrapper {
     display: flex;
     flex-direction: row;
@@ -33,7 +35,7 @@
     display: list-item;
     list-style-type: circle;
 }
-div .story {
+div.story {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -173,30 +175,26 @@ optgroup {
     display: inline-block;
     border: 2px solid Moccasin
 }
-/* div {
-    text-align: center;
-    padding: 40px
-}*/
 body {
     background-color: azure;
     padding: 0;
     margin: 0;
 }
 h1 {
-    font-size: 36px
+    font-size: 36px;
 }
 h2 {
-    font-size: 26px
+    font-size: 26px;
 }
 h3 {
-    font-size: 18px
+    font-size: 18px;
 }
 h4 {
-    font-size: 16px
+    font-size: 16px;
 }
 p {
     font-size: 15px;
-    text-indent: 20px
+    text-indent: 20px;
 }
 section p {
     text-align: left;
@@ -301,7 +299,6 @@ div {
     align-items: stretch;
     font-size: 20px;
     text-align: center;
-    align-items: stretch;
     position: sticky;
     justify-content: space-evenly;
 }
@@ -336,4 +333,37 @@ div {
 }
 .highlight {
     background-color: yellow;
+}
+.highlightlitdev {
+    background-color: lightgray;
+}
+.highlightsetting {
+    background-color: violet;
+}
+.highlightrace {
+    background-color: crimson;
+}
+.highlightclass {
+    background-color: darksalmon;
+}
+.highlightgender {
+    background-color: Indianred;
+}
+.highlightorientation {
+    background-color: salmon;
+}
+.highlightability {
+    background-color: sandybrown;
+}
+.highlightcbt {
+    background-color: khaki;
+}
+.highlightdbt {
+    background-color: lemonchiffon;
+}
+.highlightcritThink {
+    background-color: moccasin;
+}
+.highlightemp {
+    background-color: sandybrown;
 }
