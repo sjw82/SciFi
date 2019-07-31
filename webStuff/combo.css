@@ -34,6 +34,8 @@
     font-size: 15px;
     display: list-item;
     list-style-type: circle;
+    list-style-position: inside;
+    float: inherit;
 }
 div.story {
     display: flex;
@@ -75,10 +77,10 @@ header {
     height: 60px;
     padding: 0 10px;
     overflow: hidden;
-    background-color: lightcyan;
     text-align: center;
+    /*background-color: lightcyan;
     border-top-color: white;
-    border: 2px outset cyan
+    border: 2px outset cyan*/
 }
 #nav ul {
     margin: auto;
@@ -196,6 +198,17 @@ p {
     font-size: 15px;
     text-indent: 20px;
 }
+ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+ol li {
+    list-style-type: decimal;
+    font-size: 15px;
+    display: list-item;
+  list-style-position: inside;
+  float: inherit;
+}
 section p {
     text-align: left;
     padding: 0
@@ -209,7 +222,7 @@ section p {
     text-align: center;
 }
 
-#aboutmenu {
+.aboutmenu {
     display: flex;
     flex-direction: row;
     position: relative;
@@ -366,4 +379,15 @@ div {
 }
 .highlightemp {
     background-color: sandybrown;
+}
+#discplanspg .button {
+    display: flex;
+    justify-content: center;
+}
+#theorytexttext, #practicetexttext {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#practicetext {
+    display:none;
 }
